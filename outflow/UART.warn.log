@@ -1,0 +1,1111 @@
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jun 10, 2024 11:10:16
+///////////////////////////////////
+
+[EFX-0008 WARNING] Top module not specified. 'EFX_OSC_V1' is used as top module for the design.
+[EFX-0256 WARNING] The primary output port 'CLKOUT' wire 'CLKOUT' is not driven.
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'CLKOUT'. (/home/tejas/Downloads/efinity/2023.2/sim_models/maplib/efinix_peri_lib.v:137)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jun 10, 2024 11:24:20
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] parameter 's_IDLE' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:48)
+[EFX-0011 VERI-WARNING] parameter 's_TX_START_BIT' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:49)
+[EFX-0011 VERI-WARNING] parameter 's_TX_DATA_BITS' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:50)
+[EFX-0011 VERI-WARNING] parameter 's_TX_STOP_BIT' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:51)
+[EFX-0011 VERI-WARNING] parameter 's_CLEANUP' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:52)
+[EFX-0011 VERI-WARNING] parameter 's_IDLE' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:182)
+[EFX-0011 VERI-WARNING] parameter 's_RX_START_BIT' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:183)
+[EFX-0011 VERI-WARNING] parameter 's_RX_DATA_BITS' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:184)
+[EFX-0011 VERI-WARNING] parameter 's_RX_STOP_BIT' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:185)
+[EFX-0011 VERI-WARNING] parameter 's_CLEANUP' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:186)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jun 10, 2024 11:25:29
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] parameter 's_IDLE' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:48)
+[EFX-0011 VERI-WARNING] parameter 's_TX_START_BIT' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:49)
+[EFX-0011 VERI-WARNING] parameter 's_TX_DATA_BITS' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:50)
+[EFX-0011 VERI-WARNING] parameter 's_TX_STOP_BIT' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:51)
+[EFX-0011 VERI-WARNING] parameter 's_CLEANUP' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:52)
+[EFX-0011 VERI-WARNING] parameter 's_IDLE' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:182)
+[EFX-0011 VERI-WARNING] parameter 's_RX_START_BIT' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:183)
+[EFX-0011 VERI-WARNING] parameter 's_RX_DATA_BITS' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:184)
+[EFX-0011 VERI-WARNING] parameter 's_RX_STOP_BIT' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:185)
+[EFX-0011 VERI-WARNING] parameter 's_CLEANUP' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:186)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jun 10, 2024 11:25:39
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] parameter 's_IDLE' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:48)
+[EFX-0011 VERI-WARNING] parameter 's_TX_START_BIT' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:49)
+[EFX-0011 VERI-WARNING] parameter 's_TX_DATA_BITS' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:50)
+[EFX-0011 VERI-WARNING] parameter 's_TX_STOP_BIT' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:51)
+[EFX-0011 VERI-WARNING] parameter 's_CLEANUP' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:52)
+[EFX-0011 VERI-WARNING] parameter 's_IDLE' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:182)
+[EFX-0011 VERI-WARNING] parameter 's_RX_START_BIT' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:183)
+[EFX-0011 VERI-WARNING] parameter 's_RX_DATA_BITS' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:184)
+[EFX-0011 VERI-WARNING] parameter 's_RX_STOP_BIT' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:185)
+[EFX-0011 VERI-WARNING] parameter 's_CLEANUP' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:186)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:91)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:109)
+[EFX-0011 VERI-WARNING] expression size 4 truncated to fit in target size 3 (VERI-1209) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:119)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:139)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:239)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:250)
+[EFX-0011 VERI-WARNING] expression size 4 truncated to fit in target size 3 (VERI-1209) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:261)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:279)
+[EFX-0008 WARNING] Top module not specified. 'uart' is used as top module for the design.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jun 10, 2024 11:56:47
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] parameter 's_IDLE' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:48)
+[EFX-0011 VERI-WARNING] parameter 's_TX_START_BIT' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:49)
+[EFX-0011 VERI-WARNING] parameter 's_TX_DATA_BITS' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:50)
+[EFX-0011 VERI-WARNING] parameter 's_TX_STOP_BIT' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:51)
+[EFX-0011 VERI-WARNING] parameter 's_CLEANUP' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:52)
+[EFX-0011 VERI-WARNING] parameter 's_IDLE' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:182)
+[EFX-0011 VERI-WARNING] parameter 's_RX_START_BIT' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:183)
+[EFX-0011 VERI-WARNING] parameter 's_RX_DATA_BITS' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:184)
+[EFX-0011 VERI-WARNING] parameter 's_RX_STOP_BIT' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:185)
+[EFX-0011 VERI-WARNING] parameter 's_CLEANUP' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:186)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:91)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:109)
+[EFX-0011 VERI-WARNING] expression size 4 truncated to fit in target size 3 (VERI-1209) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:119)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:139)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:239)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:250)
+[EFX-0011 VERI-WARNING] expression size 4 truncated to fit in target size 3 (VERI-1209) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:261)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:279)
+[EFX-0008 WARNING] Top module not specified. 'uart' is used as top module for the design.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jun 10, 2024 12:24:53
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] parameter 's_IDLE' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:48)
+[EFX-0011 VERI-WARNING] parameter 's_TX_START_BIT' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:49)
+[EFX-0011 VERI-WARNING] parameter 's_TX_DATA_BITS' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:50)
+[EFX-0011 VERI-WARNING] parameter 's_TX_STOP_BIT' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:51)
+[EFX-0011 VERI-WARNING] parameter 's_CLEANUP' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:52)
+[EFX-0011 VERI-WARNING] parameter 's_IDLE' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:182)
+[EFX-0011 VERI-WARNING] parameter 's_RX_START_BIT' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:183)
+[EFX-0011 VERI-WARNING] parameter 's_RX_DATA_BITS' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:184)
+[EFX-0011 VERI-WARNING] parameter 's_RX_STOP_BIT' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:185)
+[EFX-0011 VERI-WARNING] parameter 's_CLEANUP' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:186)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:91)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:109)
+[EFX-0011 VERI-WARNING] expression size 4 truncated to fit in target size 3 (VERI-1209) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:119)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:139)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:239)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:250)
+[EFX-0011 VERI-WARNING] expression size 4 truncated to fit in target size 3 (VERI-1209) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:261)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:279)
+[EFX-0008 WARNING] Top module not specified. 'uart' is used as top module for the design.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jun 10, 2024 12:56:23
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] parameter 's_IDLE' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:48)
+[EFX-0011 VERI-WARNING] parameter 's_TX_START_BIT' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:49)
+[EFX-0011 VERI-WARNING] parameter 's_TX_DATA_BITS' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:50)
+[EFX-0011 VERI-WARNING] parameter 's_TX_STOP_BIT' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:51)
+[EFX-0011 VERI-WARNING] parameter 's_CLEANUP' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:52)
+[EFX-0011 VERI-WARNING] parameter 's_IDLE' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:182)
+[EFX-0011 VERI-WARNING] parameter 's_RX_START_BIT' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:183)
+[EFX-0011 VERI-WARNING] parameter 's_RX_DATA_BITS' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:184)
+[EFX-0011 VERI-WARNING] parameter 's_RX_STOP_BIT' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:185)
+[EFX-0011 VERI-WARNING] parameter 's_CLEANUP' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:186)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:91)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:109)
+[EFX-0011 VERI-WARNING] expression size 4 truncated to fit in target size 3 (VERI-1209) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:119)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:139)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:239)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:250)
+[EFX-0011 VERI-WARNING] expression size 4 truncated to fit in target size 3 (VERI-1209) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:261)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:279)
+[EFX-0008 WARNING] Top module not specified. 'uart' is used as top module for the design.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jun 10, 2024 13:03:37
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] parameter 's_IDLE' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:48)
+[EFX-0011 VERI-WARNING] parameter 's_TX_START_BIT' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:49)
+[EFX-0011 VERI-WARNING] parameter 's_TX_DATA_BITS' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:50)
+[EFX-0011 VERI-WARNING] parameter 's_TX_STOP_BIT' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:51)
+[EFX-0011 VERI-WARNING] parameter 's_CLEANUP' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:52)
+[EFX-0011 VERI-WARNING] parameter 's_IDLE' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:182)
+[EFX-0011 VERI-WARNING] parameter 's_RX_START_BIT' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:183)
+[EFX-0011 VERI-WARNING] parameter 's_RX_DATA_BITS' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:184)
+[EFX-0011 VERI-WARNING] parameter 's_RX_STOP_BIT' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:185)
+[EFX-0011 VERI-WARNING] parameter 's_CLEANUP' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:186)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:91)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:109)
+[EFX-0011 VERI-WARNING] expression size 4 truncated to fit in target size 3 (VERI-1209) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:119)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:139)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:239)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:250)
+[EFX-0011 VERI-WARNING] expression size 4 truncated to fit in target size 3 (VERI-1209) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:261)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:279)
+[EFX-0008 WARNING] Top module not specified. 'uart' is used as top module for the design.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jun 10, 2024 13:06:12
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] parameter 's_IDLE' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:47)
+[EFX-0011 VERI-WARNING] parameter 's_TX_START_BIT' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:48)
+[EFX-0011 VERI-WARNING] parameter 's_TX_DATA_BITS' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:49)
+[EFX-0011 VERI-WARNING] parameter 's_TX_STOP_BIT' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:50)
+[EFX-0011 VERI-WARNING] parameter 's_CLEANUP' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:51)
+[EFX-0011 VERI-WARNING] parameter 's_IDLE' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:181)
+[EFX-0011 VERI-WARNING] parameter 's_RX_START_BIT' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:182)
+[EFX-0011 VERI-WARNING] parameter 's_RX_DATA_BITS' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:183)
+[EFX-0011 VERI-WARNING] parameter 's_RX_STOP_BIT' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:184)
+[EFX-0011 VERI-WARNING] parameter 's_CLEANUP' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:185)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:90)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:108)
+[EFX-0011 VERI-WARNING] expression size 4 truncated to fit in target size 3 (VERI-1209) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:118)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:138)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:238)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:249)
+[EFX-0011 VERI-WARNING] expression size 4 truncated to fit in target size 3 (VERI-1209) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:260)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:278)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jun 10, 2024 13:35:46
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] parameter 's_IDLE' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:47)
+[EFX-0011 VERI-WARNING] parameter 's_TX_START_BIT' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:48)
+[EFX-0011 VERI-WARNING] parameter 's_TX_DATA_BITS' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:49)
+[EFX-0011 VERI-WARNING] parameter 's_TX_STOP_BIT' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:50)
+[EFX-0011 VERI-WARNING] parameter 's_CLEANUP' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:51)
+[EFX-0011 VERI-WARNING] parameter 's_IDLE' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:181)
+[EFX-0011 VERI-WARNING] parameter 's_RX_START_BIT' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:182)
+[EFX-0011 VERI-WARNING] parameter 's_RX_DATA_BITS' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:183)
+[EFX-0011 VERI-WARNING] parameter 's_RX_STOP_BIT' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:184)
+[EFX-0011 VERI-WARNING] parameter 's_CLEANUP' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:185)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:90)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:108)
+[EFX-0011 VERI-WARNING] expression size 4 truncated to fit in target size 3 (VERI-1209) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:118)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:138)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:238)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:249)
+[EFX-0011 VERI-WARNING] expression size 4 truncated to fit in target size 3 (VERI-1209) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:260)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:278)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jun 10, 2024 13:37:48
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] parameter 's_IDLE' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:47)
+[EFX-0011 VERI-WARNING] parameter 's_TX_START_BIT' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:48)
+[EFX-0011 VERI-WARNING] parameter 's_TX_DATA_BITS' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:49)
+[EFX-0011 VERI-WARNING] parameter 's_TX_STOP_BIT' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:50)
+[EFX-0011 VERI-WARNING] parameter 's_CLEANUP' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:51)
+[EFX-0011 VERI-WARNING] parameter 's_IDLE' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:181)
+[EFX-0011 VERI-WARNING] parameter 's_RX_START_BIT' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:182)
+[EFX-0011 VERI-WARNING] parameter 's_RX_DATA_BITS' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:183)
+[EFX-0011 VERI-WARNING] parameter 's_RX_STOP_BIT' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:184)
+[EFX-0011 VERI-WARNING] parameter 's_CLEANUP' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:185)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:90)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:108)
+[EFX-0011 VERI-WARNING] expression size 4 truncated to fit in target size 3 (VERI-1209) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:118)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:138)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:238)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:249)
+[EFX-0011 VERI-WARNING] expression size 4 truncated to fit in target size 3 (VERI-1209) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:260)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:278)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jun 10, 2024 13:38:11
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] parameter 's_IDLE' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:47)
+[EFX-0011 VERI-WARNING] parameter 's_TX_START_BIT' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:48)
+[EFX-0011 VERI-WARNING] parameter 's_TX_DATA_BITS' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:49)
+[EFX-0011 VERI-WARNING] parameter 's_TX_STOP_BIT' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:50)
+[EFX-0011 VERI-WARNING] parameter 's_CLEANUP' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:51)
+[EFX-0011 VERI-WARNING] parameter 's_IDLE' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:181)
+[EFX-0011 VERI-WARNING] parameter 's_RX_START_BIT' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:182)
+[EFX-0011 VERI-WARNING] parameter 's_RX_DATA_BITS' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:183)
+[EFX-0011 VERI-WARNING] parameter 's_RX_STOP_BIT' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:184)
+[EFX-0011 VERI-WARNING] parameter 's_CLEANUP' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:185)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:90)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:108)
+[EFX-0011 VERI-WARNING] expression size 4 truncated to fit in target size 3 (VERI-1209) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:118)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:138)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:238)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:249)
+[EFX-0011 VERI-WARNING] expression size 4 truncated to fit in target size 3 (VERI-1209) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:260)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:278)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jun 10, 2024 13:38:41
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] parameter 's_IDLE' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:47)
+[EFX-0011 VERI-WARNING] parameter 's_TX_START_BIT' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:48)
+[EFX-0011 VERI-WARNING] parameter 's_TX_DATA_BITS' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:49)
+[EFX-0011 VERI-WARNING] parameter 's_TX_STOP_BIT' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:50)
+[EFX-0011 VERI-WARNING] parameter 's_CLEANUP' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:51)
+[EFX-0011 VERI-WARNING] parameter 's_IDLE' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:181)
+[EFX-0011 VERI-WARNING] parameter 's_RX_START_BIT' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:182)
+[EFX-0011 VERI-WARNING] parameter 's_RX_DATA_BITS' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:183)
+[EFX-0011 VERI-WARNING] parameter 's_RX_STOP_BIT' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:184)
+[EFX-0011 VERI-WARNING] parameter 's_CLEANUP' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:185)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:90)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:108)
+[EFX-0011 VERI-WARNING] expression size 4 truncated to fit in target size 3 (VERI-1209) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:118)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:138)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:238)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:249)
+[EFX-0011 VERI-WARNING] expression size 4 truncated to fit in target size 3 (VERI-1209) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:260)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:278)
+[EFX-0011 VERI-WARNING] net 'i_Rx_Serial' does not have a driver (VDB-1002) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:27)
+[EFX-0008 WARNING] Top module not specified. 'uart' is used as top module for the design.
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'i_Rx_Serial'. (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:27)
+[EFX-0011 VERI-WARNING] Input/Inout Port i_Rx_Seial is unconnected and will be removed 
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jun 10, 2024 13:40:47
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] parameter 's_IDLE' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:47)
+[EFX-0011 VERI-WARNING] parameter 's_TX_START_BIT' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:48)
+[EFX-0011 VERI-WARNING] parameter 's_TX_DATA_BITS' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:49)
+[EFX-0011 VERI-WARNING] parameter 's_TX_STOP_BIT' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:50)
+[EFX-0011 VERI-WARNING] parameter 's_CLEANUP' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:51)
+[EFX-0011 VERI-WARNING] parameter 's_IDLE' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:181)
+[EFX-0011 VERI-WARNING] parameter 's_RX_START_BIT' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:182)
+[EFX-0011 VERI-WARNING] parameter 's_RX_DATA_BITS' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:183)
+[EFX-0011 VERI-WARNING] parameter 's_RX_STOP_BIT' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:184)
+[EFX-0011 VERI-WARNING] parameter 's_CLEANUP' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:185)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:90)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:108)
+[EFX-0011 VERI-WARNING] expression size 4 truncated to fit in target size 3 (VERI-1209) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:118)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:138)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:238)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:249)
+[EFX-0011 VERI-WARNING] expression size 4 truncated to fit in target size 3 (VERI-1209) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:260)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:278)
+[EFX-0011 VERI-WARNING] net 'i_Rx_Serial' does not have a driver (VDB-1002) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:27)
+[EFX-0008 WARNING] Top module not specified. 'uart' is used as top module for the design.
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'i_Rx_Serial'. (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:27)
+[EFX-0011 VERI-WARNING] Input/Inout Port i_Rx_Seial is unconnected and will be removed 
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jun 10, 2024 14:21:50
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] parameter 's_IDLE' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:47)
+[EFX-0011 VERI-WARNING] parameter 's_TX_START_BIT' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:48)
+[EFX-0011 VERI-WARNING] parameter 's_TX_DATA_BITS' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:49)
+[EFX-0011 VERI-WARNING] parameter 's_TX_STOP_BIT' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:50)
+[EFX-0011 VERI-WARNING] parameter 's_CLEANUP' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:51)
+[EFX-0011 VERI-WARNING] parameter 's_IDLE' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:181)
+[EFX-0011 VERI-WARNING] parameter 's_RX_START_BIT' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:182)
+[EFX-0011 VERI-WARNING] parameter 's_RX_DATA_BITS' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:183)
+[EFX-0011 VERI-WARNING] parameter 's_RX_STOP_BIT' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:184)
+[EFX-0011 VERI-WARNING] parameter 's_CLEANUP' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:185)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:90)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:108)
+[EFX-0011 VERI-WARNING] expression size 4 truncated to fit in target size 3 (VERI-1209) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:118)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:138)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:238)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:249)
+[EFX-0011 VERI-WARNING] expression size 4 truncated to fit in target size 3 (VERI-1209) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:260)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:278)
+[EFX-0011 VERI-WARNING] net 'i_Rx_Serial' does not have a driver (VDB-1002) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:27)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'i_Rx_Serial'. (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:27)
+[EFX-0011 VERI-WARNING] Input/Inout Port i_Rx_Seial is unconnected and will be removed 
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jun 10, 2024 14:42:42
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] parameter 's_IDLE' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:47)
+[EFX-0011 VERI-WARNING] parameter 's_TX_START_BIT' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:48)
+[EFX-0011 VERI-WARNING] parameter 's_TX_DATA_BITS' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:49)
+[EFX-0011 VERI-WARNING] parameter 's_TX_STOP_BIT' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:50)
+[EFX-0011 VERI-WARNING] parameter 's_CLEANUP' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:51)
+[EFX-0011 VERI-WARNING] parameter 's_IDLE' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:181)
+[EFX-0011 VERI-WARNING] parameter 's_RX_START_BIT' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:182)
+[EFX-0011 VERI-WARNING] parameter 's_RX_DATA_BITS' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:183)
+[EFX-0011 VERI-WARNING] parameter 's_RX_STOP_BIT' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:184)
+[EFX-0011 VERI-WARNING] parameter 's_CLEANUP' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:185)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:90)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:108)
+[EFX-0011 VERI-WARNING] expression size 4 truncated to fit in target size 3 (VERI-1209) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:118)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:138)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:238)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:249)
+[EFX-0011 VERI-WARNING] expression size 4 truncated to fit in target size 3 (VERI-1209) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:260)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:278)
+[EFX-0011 VERI-WARNING] net 'i_Rx_Serial' does not have a driver (VDB-1002) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:27)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'i_Rx_Serial'. (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:27)
+[EFX-0011 VERI-WARNING] Input/Inout Port i_Rx_Seial is unconnected and will be removed 
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jun 10, 2024 15:02:55
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] parameter 's_IDLE' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:47)
+[EFX-0011 VERI-WARNING] parameter 's_TX_START_BIT' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:48)
+[EFX-0011 VERI-WARNING] parameter 's_TX_DATA_BITS' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:49)
+[EFX-0011 VERI-WARNING] parameter 's_TX_STOP_BIT' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:50)
+[EFX-0011 VERI-WARNING] parameter 's_CLEANUP' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:51)
+[EFX-0011 VERI-WARNING] parameter 's_IDLE' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:181)
+[EFX-0011 VERI-WARNING] parameter 's_RX_START_BIT' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:182)
+[EFX-0011 VERI-WARNING] parameter 's_RX_DATA_BITS' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:183)
+[EFX-0011 VERI-WARNING] parameter 's_RX_STOP_BIT' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:184)
+[EFX-0011 VERI-WARNING] parameter 's_CLEANUP' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:185)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:90)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:108)
+[EFX-0011 VERI-WARNING] expression size 4 truncated to fit in target size 3 (VERI-1209) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:118)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:138)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:238)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:249)
+[EFX-0011 VERI-WARNING] expression size 4 truncated to fit in target size 3 (VERI-1209) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:260)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:278)
+[EFX-0011 VERI-WARNING] net 'i_Rx_Serial' does not have a driver (VDB-1002) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:27)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'i_Rx_Serial'. (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:27)
+[EFX-0011 VERI-WARNING] Input/Inout Port i_Rx_Seial is unconnected and will be removed 
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jun 10, 2024 15:10:14
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] parameter 's_IDLE' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:47)
+[EFX-0011 VERI-WARNING] parameter 's_TX_START_BIT' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:48)
+[EFX-0011 VERI-WARNING] parameter 's_TX_DATA_BITS' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:49)
+[EFX-0011 VERI-WARNING] parameter 's_TX_STOP_BIT' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:50)
+[EFX-0011 VERI-WARNING] parameter 's_CLEANUP' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:51)
+[EFX-0011 VERI-WARNING] parameter 's_IDLE' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:181)
+[EFX-0011 VERI-WARNING] parameter 's_RX_START_BIT' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:182)
+[EFX-0011 VERI-WARNING] parameter 's_RX_DATA_BITS' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:183)
+[EFX-0011 VERI-WARNING] parameter 's_RX_STOP_BIT' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:184)
+[EFX-0011 VERI-WARNING] parameter 's_CLEANUP' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:185)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:90)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:108)
+[EFX-0011 VERI-WARNING] expression size 4 truncated to fit in target size 3 (VERI-1209) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:118)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:138)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:238)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:249)
+[EFX-0011 VERI-WARNING] expression size 4 truncated to fit in target size 3 (VERI-1209) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:260)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:278)
+[EFX-0011 VERI-WARNING] net 'i_Rx_Serial' does not have a driver (VDB-1002) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:27)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'i_Rx_Serial'. (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:27)
+[EFX-0011 VERI-WARNING] Input/Inout Port i_Rx_Seial is unconnected and will be removed 
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jun 10, 2024 15:23:19
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] parameter 's_IDLE' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:47)
+[EFX-0011 VERI-WARNING] parameter 's_TX_START_BIT' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:48)
+[EFX-0011 VERI-WARNING] parameter 's_TX_DATA_BITS' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:49)
+[EFX-0011 VERI-WARNING] parameter 's_TX_STOP_BIT' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:50)
+[EFX-0011 VERI-WARNING] parameter 's_CLEANUP' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:51)
+[EFX-0011 VERI-WARNING] parameter 's_IDLE' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:181)
+[EFX-0011 VERI-WARNING] parameter 's_RX_START_BIT' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:182)
+[EFX-0011 VERI-WARNING] parameter 's_RX_DATA_BITS' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:183)
+[EFX-0011 VERI-WARNING] parameter 's_RX_STOP_BIT' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:184)
+[EFX-0011 VERI-WARNING] parameter 's_CLEANUP' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:185)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:90)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:108)
+[EFX-0011 VERI-WARNING] expression size 4 truncated to fit in target size 3 (VERI-1209) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:118)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:138)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:238)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:249)
+[EFX-0011 VERI-WARNING] expression size 4 truncated to fit in target size 3 (VERI-1209) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:260)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:278)
+[EFX-0011 VERI-WARNING] net 'i_Rx_Serial' does not have a driver (VDB-1002) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:27)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'i_Rx_Serial'. (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:27)
+[EFX-0011 VERI-WARNING] Input/Inout Port i_Rx_Seial is unconnected and will be removed 
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jun 10, 2024 15:26:25
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] parameter 's_IDLE' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:47)
+[EFX-0011 VERI-WARNING] parameter 's_TX_START_BIT' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:48)
+[EFX-0011 VERI-WARNING] parameter 's_TX_DATA_BITS' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:49)
+[EFX-0011 VERI-WARNING] parameter 's_TX_STOP_BIT' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:50)
+[EFX-0011 VERI-WARNING] parameter 's_CLEANUP' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:51)
+[EFX-0011 VERI-WARNING] parameter 's_IDLE' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:181)
+[EFX-0011 VERI-WARNING] parameter 's_RX_START_BIT' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:182)
+[EFX-0011 VERI-WARNING] parameter 's_RX_DATA_BITS' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:183)
+[EFX-0011 VERI-WARNING] parameter 's_RX_STOP_BIT' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:184)
+[EFX-0011 VERI-WARNING] parameter 's_CLEANUP' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:185)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:90)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:108)
+[EFX-0011 VERI-WARNING] expression size 4 truncated to fit in target size 3 (VERI-1209) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:118)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:138)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:238)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:249)
+[EFX-0011 VERI-WARNING] expression size 4 truncated to fit in target size 3 (VERI-1209) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:260)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:278)
+[EFX-0011 VERI-WARNING] net 'i_Rx_Serial' does not have a driver (VDB-1002) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:27)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'i_Rx_Serial'. (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:27)
+[EFX-0011 VERI-WARNING] Input/Inout Port i_Rx_Seial is unconnected and will be removed 
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jun 10, 2024 15:38:50
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] parameter 's_IDLE' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:47)
+[EFX-0011 VERI-WARNING] parameter 's_TX_START_BIT' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:48)
+[EFX-0011 VERI-WARNING] parameter 's_TX_DATA_BITS' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:49)
+[EFX-0011 VERI-WARNING] parameter 's_TX_STOP_BIT' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:50)
+[EFX-0011 VERI-WARNING] parameter 's_CLEANUP' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:51)
+[EFX-0011 VERI-WARNING] parameter 's_IDLE' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:181)
+[EFX-0011 VERI-WARNING] parameter 's_RX_START_BIT' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:182)
+[EFX-0011 VERI-WARNING] parameter 's_RX_DATA_BITS' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:183)
+[EFX-0011 VERI-WARNING] parameter 's_RX_STOP_BIT' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:184)
+[EFX-0011 VERI-WARNING] parameter 's_CLEANUP' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:185)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:90)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:108)
+[EFX-0011 VERI-WARNING] expression size 4 truncated to fit in target size 3 (VERI-1209) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:118)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:138)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:238)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:249)
+[EFX-0011 VERI-WARNING] expression size 4 truncated to fit in target size 3 (VERI-1209) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:260)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:278)
+[EFX-0011 VERI-WARNING] net 'i_Rx_Serial' does not have a driver (VDB-1002) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:27)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'i_Rx_Serial'. (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:27)
+[EFX-0011 VERI-WARNING] Input/Inout Port i_Rx_Seial is unconnected and will be removed 
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jun 10, 2024 15:47:10
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] parameter 's_IDLE' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:47)
+[EFX-0011 VERI-WARNING] parameter 's_TX_START_BIT' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:48)
+[EFX-0011 VERI-WARNING] parameter 's_TX_DATA_BITS' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:49)
+[EFX-0011 VERI-WARNING] parameter 's_TX_STOP_BIT' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:50)
+[EFX-0011 VERI-WARNING] parameter 's_CLEANUP' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:51)
+[EFX-0011 VERI-WARNING] parameter 's_IDLE' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:181)
+[EFX-0011 VERI-WARNING] parameter 's_RX_START_BIT' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:182)
+[EFX-0011 VERI-WARNING] parameter 's_RX_DATA_BITS' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:183)
+[EFX-0011 VERI-WARNING] parameter 's_RX_STOP_BIT' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:184)
+[EFX-0011 VERI-WARNING] parameter 's_CLEANUP' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:185)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:90)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:108)
+[EFX-0011 VERI-WARNING] expression size 4 truncated to fit in target size 3 (VERI-1209) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:118)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:138)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:238)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:249)
+[EFX-0011 VERI-WARNING] expression size 4 truncated to fit in target size 3 (VERI-1209) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:260)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:278)
+[EFX-0011 VERI-WARNING] net 'i_Rx_Serial' does not have a driver (VDB-1002) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:27)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'i_Rx_Serial'. (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:27)
+[EFX-0011 VERI-WARNING] Input/Inout Port i_Rx_Seial is unconnected and will be removed 
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jun 10, 2024 15:51:59
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] parameter 's_IDLE' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:47)
+[EFX-0011 VERI-WARNING] parameter 's_TX_START_BIT' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:48)
+[EFX-0011 VERI-WARNING] parameter 's_TX_DATA_BITS' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:49)
+[EFX-0011 VERI-WARNING] parameter 's_TX_STOP_BIT' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:50)
+[EFX-0011 VERI-WARNING] parameter 's_CLEANUP' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:51)
+[EFX-0011 VERI-WARNING] parameter 's_IDLE' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:181)
+[EFX-0011 VERI-WARNING] parameter 's_RX_START_BIT' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:182)
+[EFX-0011 VERI-WARNING] parameter 's_RX_DATA_BITS' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:183)
+[EFX-0011 VERI-WARNING] parameter 's_RX_STOP_BIT' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:184)
+[EFX-0011 VERI-WARNING] parameter 's_CLEANUP' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:185)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:90)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:108)
+[EFX-0011 VERI-WARNING] expression size 4 truncated to fit in target size 3 (VERI-1209) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:118)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:138)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:238)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:249)
+[EFX-0011 VERI-WARNING] expression size 4 truncated to fit in target size 3 (VERI-1209) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:260)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:278)
+[EFX-0011 VERI-WARNING] net 'i_Rx_Serial' does not have a driver (VDB-1002) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:27)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'i_Rx_Serial'. (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:27)
+[EFX-0011 VERI-WARNING] Input/Inout Port i_Rx_Seial is unconnected and will be removed 
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jun 10, 2024 16:23:11
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] parameter 's_IDLE' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:47)
+[EFX-0011 VERI-WARNING] parameter 's_TX_START_BIT' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:48)
+[EFX-0011 VERI-WARNING] parameter 's_TX_DATA_BITS' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:49)
+[EFX-0011 VERI-WARNING] parameter 's_TX_STOP_BIT' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:50)
+[EFX-0011 VERI-WARNING] parameter 's_CLEANUP' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:51)
+[EFX-0011 VERI-WARNING] parameter 's_IDLE' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:181)
+[EFX-0011 VERI-WARNING] parameter 's_RX_START_BIT' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:182)
+[EFX-0011 VERI-WARNING] parameter 's_RX_DATA_BITS' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:183)
+[EFX-0011 VERI-WARNING] parameter 's_RX_STOP_BIT' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:184)
+[EFX-0011 VERI-WARNING] parameter 's_CLEANUP' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:185)
+[EFX-0011 VERI-WARNING] parameter 's_IDLE' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_tx.v:12)
+[EFX-0011 VERI-WARNING] parameter 's_TX_START_BIT' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_tx.v:13)
+[EFX-0011 VERI-WARNING] parameter 's_TX_DATA_BITS' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_tx.v:14)
+[EFX-0011 VERI-WARNING] parameter 's_TX_STOP_BIT' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_tx.v:15)
+[EFX-0011 VERI-WARNING] parameter 's_CLEANUP' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_tx.v:16)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jun 10, 2024 16:23:29
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] parameter 's_IDLE' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:47)
+[EFX-0011 VERI-WARNING] parameter 's_TX_START_BIT' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:48)
+[EFX-0011 VERI-WARNING] parameter 's_TX_DATA_BITS' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:49)
+[EFX-0011 VERI-WARNING] parameter 's_TX_STOP_BIT' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:50)
+[EFX-0011 VERI-WARNING] parameter 's_CLEANUP' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:51)
+[EFX-0011 VERI-WARNING] parameter 's_IDLE' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:181)
+[EFX-0011 VERI-WARNING] parameter 's_RX_START_BIT' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:182)
+[EFX-0011 VERI-WARNING] parameter 's_RX_DATA_BITS' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:183)
+[EFX-0011 VERI-WARNING] parameter 's_RX_STOP_BIT' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:184)
+[EFX-0011 VERI-WARNING] parameter 's_CLEANUP' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:185)
+[EFX-0011 VERI-WARNING] parameter 's_IDLE' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_tx.v:12)
+[EFX-0011 VERI-WARNING] parameter 's_TX_START_BIT' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_tx.v:13)
+[EFX-0011 VERI-WARNING] parameter 's_TX_DATA_BITS' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_tx.v:14)
+[EFX-0011 VERI-WARNING] parameter 's_TX_STOP_BIT' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_tx.v:15)
+[EFX-0011 VERI-WARNING] parameter 's_CLEANUP' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_tx.v:16)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jun 10, 2024 16:26:25
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] parameter 's_IDLE' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:47)
+[EFX-0011 VERI-WARNING] parameter 's_TX_START_BIT' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:48)
+[EFX-0011 VERI-WARNING] parameter 's_TX_DATA_BITS' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:49)
+[EFX-0011 VERI-WARNING] parameter 's_TX_STOP_BIT' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:50)
+[EFX-0011 VERI-WARNING] parameter 's_CLEANUP' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:51)
+[EFX-0011 VERI-WARNING] parameter 's_IDLE' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:181)
+[EFX-0011 VERI-WARNING] parameter 's_RX_START_BIT' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:182)
+[EFX-0011 VERI-WARNING] parameter 's_RX_DATA_BITS' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:183)
+[EFX-0011 VERI-WARNING] parameter 's_RX_STOP_BIT' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:184)
+[EFX-0011 VERI-WARNING] parameter 's_CLEANUP' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:185)
+[EFX-0011 VERI-WARNING] parameter 's_IDLE' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_tx.v:12)
+[EFX-0011 VERI-WARNING] parameter 's_TX_START_BIT' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_tx.v:13)
+[EFX-0011 VERI-WARNING] parameter 's_TX_DATA_BITS' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_tx.v:14)
+[EFX-0011 VERI-WARNING] parameter 's_TX_STOP_BIT' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_tx.v:15)
+[EFX-0011 VERI-WARNING] parameter 's_CLEANUP' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_tx.v:16)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jun 10, 2024 16:28:37
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] parameter 's_IDLE' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_tx.v:12)
+[EFX-0011 VERI-WARNING] parameter 's_TX_START_BIT' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_tx.v:13)
+[EFX-0011 VERI-WARNING] parameter 's_TX_DATA_BITS' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_tx.v:14)
+[EFX-0011 VERI-WARNING] parameter 's_TX_STOP_BIT' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_tx.v:15)
+[EFX-0011 VERI-WARNING] parameter 's_CLEANUP' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_tx.v:16)
+[EFX-0011 VERI-WARNING] parameter 's_IDLE' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_rx.v:10)
+[EFX-0011 VERI-WARNING] parameter 's_RX_START_BIT' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_rx.v:11)
+[EFX-0011 VERI-WARNING] parameter 's_RX_DATA_BITS' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_rx.v:12)
+[EFX-0011 VERI-WARNING] parameter 's_RX_STOP_BIT' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_rx.v:13)
+[EFX-0011 VERI-WARNING] parameter 's_CLEANUP' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_rx.v:14)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_tx.v:55)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_tx.v:73)
+[EFX-0011 VERI-WARNING] expression size 4 truncated to fit in target size 3 (VERI-1209) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_tx.v:83)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_tx.v:103)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_rx.v:67)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_rx.v:78)
+[EFX-0011 VERI-WARNING] expression size 4 truncated to fit in target size 3 (VERI-1209) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_rx.v:89)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_rx.v:107)
+[EFX-0011 VERI-WARNING] net 'i_Rx_Serial' does not have a driver (VDB-1002) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:27)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'i_Rx_Serial'. (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:27)
+[EFX-0011 VERI-WARNING] Input/Inout Port i_Rx_Seial is unconnected and will be removed 
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jun 10, 2024 16:37:10
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] parameter 's_IDLE' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_tx.v:12)
+[EFX-0011 VERI-WARNING] parameter 's_TX_START_BIT' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_tx.v:13)
+[EFX-0011 VERI-WARNING] parameter 's_TX_DATA_BITS' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_tx.v:14)
+[EFX-0011 VERI-WARNING] parameter 's_TX_STOP_BIT' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_tx.v:15)
+[EFX-0011 VERI-WARNING] parameter 's_CLEANUP' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_tx.v:16)
+[EFX-0011 VERI-WARNING] parameter 's_IDLE' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_rx.v:10)
+[EFX-0011 VERI-WARNING] parameter 's_RX_START_BIT' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_rx.v:11)
+[EFX-0011 VERI-WARNING] parameter 's_RX_DATA_BITS' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_rx.v:12)
+[EFX-0011 VERI-WARNING] parameter 's_RX_STOP_BIT' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_rx.v:13)
+[EFX-0011 VERI-WARNING] parameter 's_CLEANUP' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_rx.v:14)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_tx.v:55)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_tx.v:73)
+[EFX-0011 VERI-WARNING] expression size 4 truncated to fit in target size 3 (VERI-1209) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_tx.v:83)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_tx.v:103)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_rx.v:67)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_rx.v:78)
+[EFX-0011 VERI-WARNING] expression size 4 truncated to fit in target size 3 (VERI-1209) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_rx.v:89)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_rx.v:107)
+[EFX-0011 VERI-WARNING] net 'i_Rx_Serial' does not have a driver (VDB-1002) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:27)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'i_Rx_Serial'. (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:27)
+[EFX-0011 VERI-WARNING] Input/Inout Port i_Rx_Seial is unconnected and will be removed 
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jun 10, 2024 16:37:42
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] parameter 's_IDLE' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_tx.v:12)
+[EFX-0011 VERI-WARNING] parameter 's_TX_START_BIT' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_tx.v:13)
+[EFX-0011 VERI-WARNING] parameter 's_TX_DATA_BITS' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_tx.v:14)
+[EFX-0011 VERI-WARNING] parameter 's_TX_STOP_BIT' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_tx.v:15)
+[EFX-0011 VERI-WARNING] parameter 's_CLEANUP' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_tx.v:16)
+[EFX-0011 VERI-WARNING] parameter 's_IDLE' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_rx.v:10)
+[EFX-0011 VERI-WARNING] parameter 's_RX_START_BIT' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_rx.v:11)
+[EFX-0011 VERI-WARNING] parameter 's_RX_DATA_BITS' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_rx.v:12)
+[EFX-0011 VERI-WARNING] parameter 's_RX_STOP_BIT' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_rx.v:13)
+[EFX-0011 VERI-WARNING] parameter 's_CLEANUP' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_rx.v:14)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_tx.v:55)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_tx.v:73)
+[EFX-0011 VERI-WARNING] expression size 4 truncated to fit in target size 3 (VERI-1209) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_tx.v:83)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_tx.v:103)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_rx.v:67)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_rx.v:78)
+[EFX-0011 VERI-WARNING] expression size 4 truncated to fit in target size 3 (VERI-1209) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_rx.v:89)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_rx.v:107)
+[EFX-0011 VERI-WARNING] net 'i_Rx_Serial' does not have a driver (VDB-1002) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:27)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'i_Rx_Serial'. (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:27)
+[EFX-0011 VERI-WARNING] Input/Inout Port i_Rx_Seial is unconnected and will be removed 
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jun 10, 2024 16:38:37
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] parameter 's_IDLE' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_tx.v:12)
+[EFX-0011 VERI-WARNING] parameter 's_TX_START_BIT' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_tx.v:13)
+[EFX-0011 VERI-WARNING] parameter 's_TX_DATA_BITS' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_tx.v:14)
+[EFX-0011 VERI-WARNING] parameter 's_TX_STOP_BIT' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_tx.v:15)
+[EFX-0011 VERI-WARNING] parameter 's_CLEANUP' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_tx.v:16)
+[EFX-0011 VERI-WARNING] parameter 's_IDLE' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_rx.v:10)
+[EFX-0011 VERI-WARNING] parameter 's_RX_START_BIT' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_rx.v:11)
+[EFX-0011 VERI-WARNING] parameter 's_RX_DATA_BITS' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_rx.v:12)
+[EFX-0011 VERI-WARNING] parameter 's_RX_STOP_BIT' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_rx.v:13)
+[EFX-0011 VERI-WARNING] parameter 's_CLEANUP' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_rx.v:14)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_tx.v:55)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_tx.v:73)
+[EFX-0011 VERI-WARNING] expression size 4 truncated to fit in target size 3 (VERI-1209) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_tx.v:83)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_tx.v:103)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_rx.v:67)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_rx.v:78)
+[EFX-0011 VERI-WARNING] expression size 4 truncated to fit in target size 3 (VERI-1209) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_rx.v:89)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_rx.v:107)
+[EFX-0011 VERI-WARNING] net 'i_Rx_Serial' does not have a driver (VDB-1002) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:27)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'i_Rx_Serial'. (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:27)
+[EFX-0011 VERI-WARNING] Input/Inout Port i_Rx_Seial is unconnected and will be removed 
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jun 10, 2024 17:19:55
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] parameter 's_IDLE' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_tx.v:12)
+[EFX-0011 VERI-WARNING] parameter 's_TX_START_BIT' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_tx.v:13)
+[EFX-0011 VERI-WARNING] parameter 's_TX_DATA_BITS' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_tx.v:14)
+[EFX-0011 VERI-WARNING] parameter 's_TX_STOP_BIT' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_tx.v:15)
+[EFX-0011 VERI-WARNING] parameter 's_CLEANUP' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_tx.v:16)
+[EFX-0011 VERI-WARNING] parameter 's_IDLE' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_rx.v:10)
+[EFX-0011 VERI-WARNING] parameter 's_RX_START_BIT' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_rx.v:11)
+[EFX-0011 VERI-WARNING] parameter 's_RX_DATA_BITS' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_rx.v:12)
+[EFX-0011 VERI-WARNING] parameter 's_RX_STOP_BIT' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_rx.v:13)
+[EFX-0011 VERI-WARNING] parameter 's_CLEANUP' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_rx.v:14)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_tx.v:55)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_tx.v:73)
+[EFX-0011 VERI-WARNING] expression size 4 truncated to fit in target size 3 (VERI-1209) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_tx.v:83)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_tx.v:103)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_rx.v:67)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_rx.v:78)
+[EFX-0011 VERI-WARNING] expression size 4 truncated to fit in target size 3 (VERI-1209) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_rx.v:89)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_rx.v:107)
+[EFX-0011 VERI-WARNING] net 'i_Rx_Serial' does not have a driver (VDB-1002) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:27)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'i_Rx_Serial'. (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:27)
+[EFX-0011 VERI-WARNING] Input/Inout Port i_Rx_Seial is unconnected and will be removed 
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jun 10, 2024 17:43:54
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] parameter 's_IDLE' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_tx.v:12)
+[EFX-0011 VERI-WARNING] parameter 's_TX_START_BIT' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_tx.v:13)
+[EFX-0011 VERI-WARNING] parameter 's_TX_DATA_BITS' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_tx.v:14)
+[EFX-0011 VERI-WARNING] parameter 's_TX_STOP_BIT' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_tx.v:15)
+[EFX-0011 VERI-WARNING] parameter 's_CLEANUP' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_tx.v:16)
+[EFX-0011 VERI-WARNING] parameter 's_IDLE' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_rx.v:10)
+[EFX-0011 VERI-WARNING] parameter 's_RX_START_BIT' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_rx.v:11)
+[EFX-0011 VERI-WARNING] parameter 's_RX_DATA_BITS' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_rx.v:12)
+[EFX-0011 VERI-WARNING] parameter 's_RX_STOP_BIT' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_rx.v:13)
+[EFX-0011 VERI-WARNING] parameter 's_CLEANUP' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_rx.v:14)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_tx.v:55)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_tx.v:73)
+[EFX-0011 VERI-WARNING] expression size 4 truncated to fit in target size 3 (VERI-1209) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_tx.v:83)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_tx.v:103)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_rx.v:67)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_rx.v:78)
+[EFX-0011 VERI-WARNING] expression size 4 truncated to fit in target size 3 (VERI-1209) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_rx.v:89)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_rx.v:107)
+[EFX-0011 VERI-WARNING] net 'i_Rx_Serial' does not have a driver (VDB-1002) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:27)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'i_Rx_Serial'. (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:27)
+[EFX-0011 VERI-WARNING] Input/Inout Port i_Rx_Seial is unconnected and will be removed 
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jun 10, 2024 17:47:28
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] parameter 's_IDLE' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_tx.v:12)
+[EFX-0011 VERI-WARNING] parameter 's_TX_START_BIT' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_tx.v:13)
+[EFX-0011 VERI-WARNING] parameter 's_TX_DATA_BITS' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_tx.v:14)
+[EFX-0011 VERI-WARNING] parameter 's_TX_STOP_BIT' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_tx.v:15)
+[EFX-0011 VERI-WARNING] parameter 's_CLEANUP' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_tx.v:16)
+[EFX-0011 VERI-WARNING] parameter 's_IDLE' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_rx.v:10)
+[EFX-0011 VERI-WARNING] parameter 's_RX_START_BIT' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_rx.v:11)
+[EFX-0011 VERI-WARNING] parameter 's_RX_DATA_BITS' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_rx.v:12)
+[EFX-0011 VERI-WARNING] parameter 's_RX_STOP_BIT' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_rx.v:13)
+[EFX-0011 VERI-WARNING] parameter 's_CLEANUP' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_rx.v:14)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_tx.v:55)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_tx.v:73)
+[EFX-0011 VERI-WARNING] expression size 4 truncated to fit in target size 3 (VERI-1209) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_tx.v:83)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_tx.v:103)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_rx.v:67)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_rx.v:78)
+[EFX-0011 VERI-WARNING] expression size 4 truncated to fit in target size 3 (VERI-1209) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_rx.v:89)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_rx.v:107)
+[EFX-0011 VERI-WARNING] net 'i_Rx_Serial' does not have a driver (VDB-1002) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:27)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'i_Rx_Serial'. (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:27)
+[EFX-0011 VERI-WARNING] Input/Inout Port i_Rx_Seial is unconnected and will be removed 
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jun 10, 2024 17:56:18
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] parameter 's_IDLE' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_tx.v:12)
+[EFX-0011 VERI-WARNING] parameter 's_TX_START_BIT' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_tx.v:13)
+[EFX-0011 VERI-WARNING] parameter 's_TX_DATA_BITS' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_tx.v:14)
+[EFX-0011 VERI-WARNING] parameter 's_TX_STOP_BIT' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_tx.v:15)
+[EFX-0011 VERI-WARNING] parameter 's_CLEANUP' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_tx.v:16)
+[EFX-0011 VERI-WARNING] parameter 's_IDLE' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_rx.v:10)
+[EFX-0011 VERI-WARNING] parameter 's_RX_START_BIT' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_rx.v:11)
+[EFX-0011 VERI-WARNING] parameter 's_RX_DATA_BITS' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_rx.v:12)
+[EFX-0011 VERI-WARNING] parameter 's_RX_STOP_BIT' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_rx.v:13)
+[EFX-0011 VERI-WARNING] parameter 's_CLEANUP' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_rx.v:14)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_tx.v:55)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_tx.v:73)
+[EFX-0011 VERI-WARNING] expression size 4 truncated to fit in target size 3 (VERI-1209) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_tx.v:83)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_tx.v:103)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_rx.v:67)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_rx.v:78)
+[EFX-0011 VERI-WARNING] expression size 4 truncated to fit in target size 3 (VERI-1209) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_rx.v:89)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_rx.v:107)
+[EFX-0011 VERI-WARNING] net 'i_Rx_Serial' does not have a driver (VDB-1002) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:27)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'i_Rx_Serial'. (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:27)
+[EFX-0011 VERI-WARNING] Input/Inout Port i_Rx_Seial is unconnected and will be removed 
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jun 10, 2024 18:03:51
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] parameter 's_IDLE' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_tx.v:12)
+[EFX-0011 VERI-WARNING] parameter 's_TX_START_BIT' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_tx.v:13)
+[EFX-0011 VERI-WARNING] parameter 's_TX_DATA_BITS' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_tx.v:14)
+[EFX-0011 VERI-WARNING] parameter 's_TX_STOP_BIT' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_tx.v:15)
+[EFX-0011 VERI-WARNING] parameter 's_CLEANUP' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_tx.v:16)
+[EFX-0011 VERI-WARNING] parameter 's_IDLE' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_rx.v:10)
+[EFX-0011 VERI-WARNING] parameter 's_RX_START_BIT' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_rx.v:11)
+[EFX-0011 VERI-WARNING] parameter 's_RX_DATA_BITS' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_rx.v:12)
+[EFX-0011 VERI-WARNING] parameter 's_RX_STOP_BIT' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_rx.v:13)
+[EFX-0011 VERI-WARNING] parameter 's_CLEANUP' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_rx.v:14)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_tx.v:55)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_tx.v:73)
+[EFX-0011 VERI-WARNING] expression size 4 truncated to fit in target size 3 (VERI-1209) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_tx.v:83)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_tx.v:103)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_rx.v:67)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_rx.v:78)
+[EFX-0011 VERI-WARNING] expression size 4 truncated to fit in target size 3 (VERI-1209) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_rx.v:89)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_rx.v:107)
+[EFX-0011 VERI-WARNING] net 'i_Rx_Serial' does not have a driver (VDB-1002) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:27)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'i_Rx_Serial'. (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:27)
+[EFX-0011 VERI-WARNING] Input/Inout Port i_Rx_Seial is unconnected and will be removed 
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jun 10, 2024 18:08:44
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] parameter 's_IDLE' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_tx.v:12)
+[EFX-0011 VERI-WARNING] parameter 's_TX_START_BIT' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_tx.v:13)
+[EFX-0011 VERI-WARNING] parameter 's_TX_DATA_BITS' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_tx.v:14)
+[EFX-0011 VERI-WARNING] parameter 's_TX_STOP_BIT' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_tx.v:15)
+[EFX-0011 VERI-WARNING] parameter 's_CLEANUP' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_tx.v:16)
+[EFX-0011 VERI-WARNING] parameter 's_IDLE' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_rx.v:10)
+[EFX-0011 VERI-WARNING] parameter 's_RX_START_BIT' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_rx.v:11)
+[EFX-0011 VERI-WARNING] parameter 's_RX_DATA_BITS' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_rx.v:12)
+[EFX-0011 VERI-WARNING] parameter 's_RX_STOP_BIT' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_rx.v:13)
+[EFX-0011 VERI-WARNING] parameter 's_CLEANUP' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_rx.v:14)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_tx.v:55)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_tx.v:73)
+[EFX-0011 VERI-WARNING] expression size 4 truncated to fit in target size 3 (VERI-1209) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_tx.v:83)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_tx.v:103)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_rx.v:67)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_rx.v:78)
+[EFX-0011 VERI-WARNING] expression size 4 truncated to fit in target size 3 (VERI-1209) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_rx.v:89)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_rx.v:107)
+[EFX-0011 VERI-WARNING] net 'i_Rx_Serial' does not have a driver (VDB-1002) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:27)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'i_Rx_Serial'. (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:27)
+[EFX-0011 VERI-WARNING] Input/Inout Port i_Rx_Seial is unconnected and will be removed 
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jun 10, 2024 18:12:07
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] parameter 's_IDLE' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_tx.v:12)
+[EFX-0011 VERI-WARNING] parameter 's_TX_START_BIT' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_tx.v:13)
+[EFX-0011 VERI-WARNING] parameter 's_TX_DATA_BITS' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_tx.v:14)
+[EFX-0011 VERI-WARNING] parameter 's_TX_STOP_BIT' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_tx.v:15)
+[EFX-0011 VERI-WARNING] parameter 's_CLEANUP' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_tx.v:16)
+[EFX-0011 VERI-WARNING] parameter 's_IDLE' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_rx.v:10)
+[EFX-0011 VERI-WARNING] parameter 's_RX_START_BIT' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_rx.v:11)
+[EFX-0011 VERI-WARNING] parameter 's_RX_DATA_BITS' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_rx.v:12)
+[EFX-0011 VERI-WARNING] parameter 's_RX_STOP_BIT' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_rx.v:13)
+[EFX-0011 VERI-WARNING] parameter 's_CLEANUP' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_rx.v:14)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_tx.v:55)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_tx.v:73)
+[EFX-0011 VERI-WARNING] expression size 4 truncated to fit in target size 3 (VERI-1209) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_tx.v:83)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_tx.v:103)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_rx.v:67)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_rx.v:78)
+[EFX-0011 VERI-WARNING] expression size 4 truncated to fit in target size 3 (VERI-1209) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_rx.v:89)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_rx.v:107)
+[EFX-0011 VERI-WARNING] net 'i_Rx_Serial' does not have a driver (VDB-1002) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:27)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'i_Rx_Serial'. (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:27)
+[EFX-0011 VERI-WARNING] Input/Inout Port i_Rx_Seial is unconnected and will be removed 
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jun 10, 2024 18:57:11
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] parameter 's_IDLE' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_tx.v:12)
+[EFX-0011 VERI-WARNING] parameter 's_TX_START_BIT' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_tx.v:13)
+[EFX-0011 VERI-WARNING] parameter 's_TX_DATA_BITS' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_tx.v:14)
+[EFX-0011 VERI-WARNING] parameter 's_TX_STOP_BIT' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_tx.v:15)
+[EFX-0011 VERI-WARNING] parameter 's_CLEANUP' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_tx.v:16)
+[EFX-0011 VERI-WARNING] parameter 's_IDLE' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_rx.v:11)
+[EFX-0011 VERI-WARNING] parameter 's_RX_START_BIT' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_rx.v:12)
+[EFX-0011 VERI-WARNING] parameter 's_RX_DATA_BITS' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_rx.v:13)
+[EFX-0011 VERI-WARNING] parameter 's_RX_STOP_BIT' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_rx.v:14)
+[EFX-0011 VERI-WARNING] parameter 's_CLEANUP' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_rx.v:15)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jun 10, 2024 18:57:23
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] parameter 's_IDLE' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_tx.v:12)
+[EFX-0011 VERI-WARNING] parameter 's_TX_START_BIT' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_tx.v:13)
+[EFX-0011 VERI-WARNING] parameter 's_TX_DATA_BITS' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_tx.v:14)
+[EFX-0011 VERI-WARNING] parameter 's_TX_STOP_BIT' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_tx.v:15)
+[EFX-0011 VERI-WARNING] parameter 's_CLEANUP' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_tx.v:16)
+[EFX-0011 VERI-WARNING] parameter 's_IDLE' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_rx.v:11)
+[EFX-0011 VERI-WARNING] parameter 's_RX_START_BIT' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_rx.v:12)
+[EFX-0011 VERI-WARNING] parameter 's_RX_DATA_BITS' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_rx.v:13)
+[EFX-0011 VERI-WARNING] parameter 's_RX_STOP_BIT' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_rx.v:14)
+[EFX-0011 VERI-WARNING] parameter 's_CLEANUP' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_rx.v:15)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jun 10, 2024 18:58:02
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] parameter 's_IDLE' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_tx.v:12)
+[EFX-0011 VERI-WARNING] parameter 's_TX_START_BIT' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_tx.v:13)
+[EFX-0011 VERI-WARNING] parameter 's_TX_DATA_BITS' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_tx.v:14)
+[EFX-0011 VERI-WARNING] parameter 's_TX_STOP_BIT' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_tx.v:15)
+[EFX-0011 VERI-WARNING] parameter 's_CLEANUP' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_tx.v:16)
+[EFX-0011 VERI-WARNING] parameter 's_IDLE' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_rx.v:11)
+[EFX-0011 VERI-WARNING] parameter 's_RX_START_BIT' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_rx.v:12)
+[EFX-0011 VERI-WARNING] parameter 's_RX_DATA_BITS' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_rx.v:13)
+[EFX-0011 VERI-WARNING] parameter 's_RX_STOP_BIT' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_rx.v:14)
+[EFX-0011 VERI-WARNING] parameter 's_CLEANUP' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_rx.v:15)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jun 10, 2024 19:00:34
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] parameter 's_IDLE' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_tx.v:12)
+[EFX-0011 VERI-WARNING] parameter 's_TX_START_BIT' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_tx.v:13)
+[EFX-0011 VERI-WARNING] parameter 's_TX_DATA_BITS' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_tx.v:14)
+[EFX-0011 VERI-WARNING] parameter 's_TX_STOP_BIT' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_tx.v:15)
+[EFX-0011 VERI-WARNING] parameter 's_CLEANUP' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_tx.v:16)
+[EFX-0011 VERI-WARNING] parameter 's_IDLE' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_rx.v:11)
+[EFX-0011 VERI-WARNING] parameter 's_RX_START_BIT' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_rx.v:12)
+[EFX-0011 VERI-WARNING] parameter 's_RX_DATA_BITS' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_rx.v:13)
+[EFX-0011 VERI-WARNING] parameter 's_RX_STOP_BIT' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_rx.v:14)
+[EFX-0011 VERI-WARNING] parameter 's_CLEANUP' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_rx.v:15)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jun 10, 2024 19:03:37
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] parameter 's_IDLE' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_tx.v:12)
+[EFX-0011 VERI-WARNING] parameter 's_TX_START_BIT' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_tx.v:13)
+[EFX-0011 VERI-WARNING] parameter 's_TX_DATA_BITS' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_tx.v:14)
+[EFX-0011 VERI-WARNING] parameter 's_TX_STOP_BIT' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_tx.v:15)
+[EFX-0011 VERI-WARNING] parameter 's_CLEANUP' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_tx.v:16)
+[EFX-0011 VERI-WARNING] parameter 's_IDLE' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_rx.v:11)
+[EFX-0011 VERI-WARNING] parameter 's_RX_START_BIT' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_rx.v:12)
+[EFX-0011 VERI-WARNING] parameter 's_RX_DATA_BITS' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_rx.v:13)
+[EFX-0011 VERI-WARNING] parameter 's_RX_STOP_BIT' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_rx.v:14)
+[EFX-0011 VERI-WARNING] parameter 's_CLEANUP' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_rx.v:15)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jun 10, 2024 19:03:56
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] parameter 's_IDLE' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_tx.v:12)
+[EFX-0011 VERI-WARNING] parameter 's_TX_START_BIT' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_tx.v:13)
+[EFX-0011 VERI-WARNING] parameter 's_TX_DATA_BITS' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_tx.v:14)
+[EFX-0011 VERI-WARNING] parameter 's_TX_STOP_BIT' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_tx.v:15)
+[EFX-0011 VERI-WARNING] parameter 's_CLEANUP' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_tx.v:16)
+[EFX-0011 VERI-WARNING] parameter 's_IDLE' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_rx.v:11)
+[EFX-0011 VERI-WARNING] parameter 's_RX_START_BIT' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_rx.v:12)
+[EFX-0011 VERI-WARNING] parameter 's_RX_DATA_BITS' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_rx.v:13)
+[EFX-0011 VERI-WARNING] parameter 's_RX_STOP_BIT' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_rx.v:14)
+[EFX-0011 VERI-WARNING] parameter 's_CLEANUP' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_rx.v:15)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jun 10, 2024 19:04:06
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] parameter 's_IDLE' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_tx.v:12)
+[EFX-0011 VERI-WARNING] parameter 's_TX_START_BIT' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_tx.v:13)
+[EFX-0011 VERI-WARNING] parameter 's_TX_DATA_BITS' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_tx.v:14)
+[EFX-0011 VERI-WARNING] parameter 's_TX_STOP_BIT' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_tx.v:15)
+[EFX-0011 VERI-WARNING] parameter 's_CLEANUP' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_tx.v:16)
+[EFX-0011 VERI-WARNING] parameter 's_IDLE' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_rx.v:11)
+[EFX-0011 VERI-WARNING] parameter 's_RX_START_BIT' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_rx.v:12)
+[EFX-0011 VERI-WARNING] parameter 's_RX_DATA_BITS' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_rx.v:13)
+[EFX-0011 VERI-WARNING] parameter 's_RX_STOP_BIT' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_rx.v:14)
+[EFX-0011 VERI-WARNING] parameter 's_CLEANUP' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_rx.v:15)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jun 10, 2024 19:05:21
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] parameter 's_IDLE' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_tx.v:12)
+[EFX-0011 VERI-WARNING] parameter 's_TX_START_BIT' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_tx.v:13)
+[EFX-0011 VERI-WARNING] parameter 's_TX_DATA_BITS' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_tx.v:14)
+[EFX-0011 VERI-WARNING] parameter 's_TX_STOP_BIT' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_tx.v:15)
+[EFX-0011 VERI-WARNING] parameter 's_CLEANUP' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_tx.v:16)
+[EFX-0011 VERI-WARNING] parameter 's_IDLE' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_rx.v:11)
+[EFX-0011 VERI-WARNING] parameter 's_RX_START_BIT' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_rx.v:12)
+[EFX-0011 VERI-WARNING] parameter 's_RX_DATA_BITS' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_rx.v:13)
+[EFX-0011 VERI-WARNING] parameter 's_RX_STOP_BIT' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_rx.v:14)
+[EFX-0011 VERI-WARNING] parameter 's_CLEANUP' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_rx.v:15)
+[EFX-0011 VERI-WARNING] port 'o_Rx_Verify' remains unconnected for this instance (VERI-1927) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:30)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_tx.v:55)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_tx.v:73)
+[EFX-0011 VERI-WARNING] expression size 4 truncated to fit in target size 3 (VERI-1209) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_tx.v:83)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_tx.v:103)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_rx.v:68)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_rx.v:79)
+[EFX-0011 VERI-WARNING] expression size 4 truncated to fit in target size 3 (VERI-1209) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_rx.v:90)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_rx.v:108)
+[EFX-0011 VERI-WARNING] net 'i_Rx_Serial' does not have a driver (VDB-1002) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:27)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'i_Rx_Serial'. (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:27)
+[EFX-0011 VERI-WARNING] Input/Inout Port i_Rx_Seial is unconnected and will be removed 
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jun 11, 2024 09:56:12
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] parameter 's_IDLE' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_tx.v:12)
+[EFX-0011 VERI-WARNING] parameter 's_TX_START_BIT' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_tx.v:13)
+[EFX-0011 VERI-WARNING] parameter 's_TX_DATA_BITS' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_tx.v:14)
+[EFX-0011 VERI-WARNING] parameter 's_TX_STOP_BIT' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_tx.v:15)
+[EFX-0011 VERI-WARNING] parameter 's_CLEANUP' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_tx.v:16)
+[EFX-0011 VERI-WARNING] parameter 's_IDLE' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_rx.v:11)
+[EFX-0011 VERI-WARNING] parameter 's_RX_START_BIT' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_rx.v:12)
+[EFX-0011 VERI-WARNING] parameter 's_RX_DATA_BITS' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_rx.v:13)
+[EFX-0011 VERI-WARNING] parameter 's_RX_STOP_BIT' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_rx.v:14)
+[EFX-0011 VERI-WARNING] parameter 's_CLEANUP' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_rx.v:15)
+[EFX-0011 VERI-WARNING] port 'o_Rx_Verify' remains unconnected for this instance (VERI-1927) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:30)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_tx.v:55)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_tx.v:73)
+[EFX-0011 VERI-WARNING] expression size 4 truncated to fit in target size 3 (VERI-1209) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_tx.v:83)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_tx.v:103)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_rx.v:68)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_rx.v:79)
+[EFX-0011 VERI-WARNING] expression size 4 truncated to fit in target size 3 (VERI-1209) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_rx.v:90)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_rx.v:108)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jun 11, 2024 09:58:37
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] parameter 's_IDLE' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_tx.v:12)
+[EFX-0011 VERI-WARNING] parameter 's_TX_START_BIT' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_tx.v:13)
+[EFX-0011 VERI-WARNING] parameter 's_TX_DATA_BITS' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_tx.v:14)
+[EFX-0011 VERI-WARNING] parameter 's_TX_STOP_BIT' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_tx.v:15)
+[EFX-0011 VERI-WARNING] parameter 's_CLEANUP' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_tx.v:16)
+[EFX-0011 VERI-WARNING] parameter 's_IDLE' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_rx.v:11)
+[EFX-0011 VERI-WARNING] parameter 's_RX_START_BIT' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_rx.v:12)
+[EFX-0011 VERI-WARNING] parameter 's_RX_DATA_BITS' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_rx.v:13)
+[EFX-0011 VERI-WARNING] parameter 's_RX_STOP_BIT' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_rx.v:14)
+[EFX-0011 VERI-WARNING] parameter 's_CLEANUP' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_rx.v:15)
+[EFX-0011 VERI-WARNING] port 'o_Rx_Verify' remains unconnected for this instance (VERI-1927) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:30)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_tx.v:55)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_tx.v:73)
+[EFX-0011 VERI-WARNING] expression size 4 truncated to fit in target size 3 (VERI-1209) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_tx.v:83)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_tx.v:103)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_rx.v:68)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_rx.v:79)
+[EFX-0011 VERI-WARNING] expression size 4 truncated to fit in target size 3 (VERI-1209) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_rx.v:90)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_rx.v:108)

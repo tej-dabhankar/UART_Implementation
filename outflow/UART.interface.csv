@@ -1,0 +1,24 @@
+
+# Efinity Interface Configuration
+# Version: 2023.2.307
+# Date: 2024-06-11 09:59
+
+# Copyright (C) 2013 - 2023 Efinix Inc. All rights reserved.
+
+# [required | optional] (input|output|clkout), x, y, z, __bypass__|[~|!]<clock>, [[~|!]<pin_name>] | __vcc__ | __gnd__
+input, 338, 5, 1, __bypass__, i_Clock
+input, 323, 643, 1, __bypass__, i_Rx_Serial
+input, 0, 6, 3, __bypass__, jtag_inst1_CAPTURE
+input, 0, 2, 3, __bypass__, jtag_inst1_DRCK
+input, 0, 4, 3, __bypass__, jtag_inst1_RESET
+input, 0, 5, 1, __bypass__, jtag_inst1_RUNTEST
+input, 0, 2, 1, __bypass__, jtag_inst1_SEL
+input, 0, 5, 3, __bypass__, jtag_inst1_SHIFT
+input, 0, 4, 1, __bypass__, jtag_inst1_TCK
+input, 0, 3, 1, __bypass__, jtag_inst1_TDI
+output, 0, 2, 0, __bypass__, jtag_inst1_TDO
+input, 0, 3, 3, __bypass__, jtag_inst1_TMS
+input, 0, 6, 1, __bypass__, jtag_inst1_UPDATE
+output, 338, 380, 0, __bypass__, o_Tx_Active
+output, 338, 378, 0, __bypass__, o_Tx_Done
+output, 0, 276, 0, __bypass__, o_Tx_Serial

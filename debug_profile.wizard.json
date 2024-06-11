@@ -1,0 +1,1390 @@
+{
+    "debug_cores": [
+        {
+            "name": "la0",
+            "type": "la",
+            "uuid": "ed2a5ab69125414cb26d8fb13d7b9918",
+            "trigin_en": false,
+            "trigout_en": false,
+            "auto_inserted": true,
+            "capture_control": false,
+            "data_depth": 1024,
+            "input_pipeline": 1,
+            "probes": [
+                {
+                    "name": "o_Tx_Serial",
+                    "width": 1,
+                    "probe_type": 1
+                },
+                {
+                    "name": "o_Tx_Active",
+                    "width": 1,
+                    "probe_type": 1
+                },
+                {
+                    "name": "i_Clock",
+                    "width": 1,
+                    "probe_type": 1
+                },
+                {
+                    "name": "o_Tx_Done",
+                    "width": 1,
+                    "probe_type": 1
+                },
+                {
+                    "name": "i_Rx_Serial",
+                    "width": 1,
+                    "probe_type": 1
+                },
+                {
+                    "name": "UART_TX_INST/r_Tx_Done",
+                    "width": 1,
+                    "probe_type": 1
+                },
+                {
+                    "name": "UART_TX_INST/r_Tx_Data",
+                    "width": 8,
+                    "probe_type": 1
+                },
+                {
+                    "name": "UART_TX_INST/r_Tx_Active",
+                    "width": 1,
+                    "probe_type": 1
+                },
+                {
+                    "name": "UART_TX_INST/r_SM_Main",
+                    "width": 3,
+                    "probe_type": 1
+                },
+                {
+                    "name": "UART_TX_INST/r_Clock_Count",
+                    "width": 8,
+                    "probe_type": 1
+                },
+                {
+                    "name": "UART_TX_INST/r_Bit_Index",
+                    "width": 3,
+                    "probe_type": 1
+                },
+                {
+                    "name": "UART_TX_INST/o_Tx_Serial",
+                    "width": 1,
+                    "probe_type": 1
+                },
+                {
+                    "name": "UART_TX_INST/o_Tx_Done",
+                    "width": 1,
+                    "probe_type": 1
+                },
+                {
+                    "name": "UART_TX_INST/o_Tx_Active",
+                    "width": 1,
+                    "probe_type": 1
+                },
+                {
+                    "name": "UART_TX_INST/i_Tx_DV",
+                    "width": 1,
+                    "probe_type": 1
+                },
+                {
+                    "name": "UART_TX_INST/i_Tx_Byte",
+                    "width": 8,
+                    "probe_type": 1
+                },
+                {
+                    "name": "UART_TX_INST/i_Clock",
+                    "width": 1,
+                    "probe_type": 1
+                },
+                {
+                    "name": "o_Rx_Byte",
+                    "width": 8,
+                    "probe_type": 1
+                },
+                {
+                    "name": "o_Tx_Serial",
+                    "width": 1,
+                    "probe_type": 1
+                },
+                {
+                    "name": "o_Tx_Done",
+                    "width": 1,
+                    "probe_type": 1
+                },
+                {
+                    "name": "o_Tx_Active",
+                    "width": 1,
+                    "probe_type": 1
+                },
+                {
+                    "name": "o_Rx_DV",
+                    "width": 1,
+                    "probe_type": 1
+                },
+                {
+                    "name": "o_Rx_Byte",
+                    "width": 8,
+                    "probe_type": 1
+                },
+                {
+                    "name": "i_Rx_Serial",
+                    "width": 1,
+                    "probe_type": 1
+                },
+                {
+                    "name": "i_Clock",
+                    "width": 1,
+                    "probe_type": 1
+                },
+                {
+                    "name": "UART_RX_INST/r_SM_Main",
+                    "width": 3,
+                    "probe_type": 1
+                },
+                {
+                    "name": "UART_RX_INST/r_Rx_DV",
+                    "width": 1,
+                    "probe_type": 1
+                },
+                {
+                    "name": "UART_RX_INST/r_Rx_Data_R",
+                    "width": 1,
+                    "probe_type": 1
+                },
+                {
+                    "name": "UART_RX_INST/r_Rx_Data",
+                    "width": 1,
+                    "probe_type": 1
+                },
+                {
+                    "name": "UART_RX_INST/r_Rx_Byte",
+                    "width": 8,
+                    "probe_type": 1
+                },
+                {
+                    "name": "UART_RX_INST/r_Clock_Count",
+                    "width": 8,
+                    "probe_type": 1
+                },
+                {
+                    "name": "UART_RX_INST/r_Bit_Index",
+                    "width": 3,
+                    "probe_type": 1
+                },
+                {
+                    "name": "UART_RX_INST/o_Rx_Verify",
+                    "width": 1,
+                    "probe_type": 1
+                },
+                {
+                    "name": "UART_RX_INST/o_Rx_DV",
+                    "width": 1,
+                    "probe_type": 1
+                },
+                {
+                    "name": "UART_RX_INST/o_Rx_Byte",
+                    "width": 8,
+                    "probe_type": 1
+                },
+                {
+                    "name": "UART_RX_INST/i_Rx_Serial",
+                    "width": 1,
+                    "probe_type": 1
+                },
+                {
+                    "name": "UART_RX_INST/i_Clock",
+                    "width": 1,
+                    "probe_type": 1
+                },
+                {
+                    "name": "o_Rx_DV",
+                    "width": 1,
+                    "probe_type": 1
+                }
+            ]
+        }
+    ],
+    "connections": [
+        {
+            "command": "add_ports",
+            "id": 1,
+            "args": {
+                "netlist": "uart",
+                "ports": [
+                    {
+                        "name": "jtag_inst1_CAPTURE",
+                        "dir": "in",
+                        "width": 1
+                    },
+                    {
+                        "name": "jtag_inst1_DRCK",
+                        "dir": "in",
+                        "width": 1
+                    },
+                    {
+                        "name": "jtag_inst1_RESET",
+                        "dir": "in",
+                        "width": 1
+                    },
+                    {
+                        "name": "jtag_inst1_RUNTEST",
+                        "dir": "in",
+                        "width": 1
+                    },
+                    {
+                        "name": "jtag_inst1_SEL",
+                        "dir": "in",
+                        "width": 1
+                    },
+                    {
+                        "name": "jtag_inst1_SHIFT",
+                        "dir": "in",
+                        "width": 1
+                    },
+                    {
+                        "name": "jtag_inst1_TCK",
+                        "dir": "in",
+                        "width": 1
+                    },
+                    {
+                        "name": "jtag_inst1_TDI",
+                        "dir": "in",
+                        "width": 1
+                    },
+                    {
+                        "name": "jtag_inst1_TMS",
+                        "dir": "in",
+                        "width": 1
+                    },
+                    {
+                        "name": "jtag_inst1_UPDATE",
+                        "dir": "in",
+                        "width": 1
+                    },
+                    {
+                        "name": "jtag_inst1_TDO",
+                        "dir": "out",
+                        "width": 1
+                    }
+                ]
+            }
+        },
+        {
+            "command": "instantiate",
+            "netlist": "edb_top",
+            "id": 2,
+            "instance": "edb_top_inst"
+        },
+        {
+            "command": "connect",
+            "id": 3,
+            "args": {
+                "instance": "edb_top_inst",
+                "ports": [
+                    {
+                        "name": "bscan_CAPTURE",
+                        "net": "jtag_inst1_CAPTURE"
+                    },
+                    {
+                        "name": "bscan_DRCK",
+                        "net": "jtag_inst1_DRCK"
+                    },
+                    {
+                        "name": "bscan_RESET",
+                        "net": "jtag_inst1_RESET"
+                    },
+                    {
+                        "name": "bscan_RUNTEST",
+                        "net": "jtag_inst1_RUNTEST"
+                    },
+                    {
+                        "name": "bscan_SEL",
+                        "net": "jtag_inst1_SEL"
+                    },
+                    {
+                        "name": "bscan_SHIFT",
+                        "net": "jtag_inst1_SHIFT"
+                    },
+                    {
+                        "name": "bscan_TCK",
+                        "net": "jtag_inst1_TCK"
+                    },
+                    {
+                        "name": "bscan_TDI",
+                        "net": "jtag_inst1_TDI"
+                    },
+                    {
+                        "name": "bscan_TMS",
+                        "net": "jtag_inst1_TMS"
+                    },
+                    {
+                        "name": "bscan_UPDATE",
+                        "net": "jtag_inst1_UPDATE"
+                    },
+                    {
+                        "name": "bscan_TDO",
+                        "net": "jtag_inst1_TDO"
+                    },
+                    {
+                        "name": "la0_clk",
+                        "net": "i_Clock",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe0",
+                        "net": "o_Tx_Serial",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe1",
+                        "net": "o_Tx_Active",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe2",
+                        "net": "i_Clock",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe3",
+                        "net": "o_Tx_Done",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe4",
+                        "net": "i_Rx_Serial",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe5",
+                        "net": "r_Tx_Done",
+                        "path": [
+                            "UART_TX_INST"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe6[0]",
+                        "net": "r_Tx_Data[0]",
+                        "path": [
+                            "UART_TX_INST"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe6[1]",
+                        "net": "r_Tx_Data[1]",
+                        "path": [
+                            "UART_TX_INST"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe6[2]",
+                        "net": "r_Tx_Data[2]",
+                        "path": [
+                            "UART_TX_INST"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe6[3]",
+                        "net": "r_Tx_Data[3]",
+                        "path": [
+                            "UART_TX_INST"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe6[4]",
+                        "net": "r_Tx_Data[4]",
+                        "path": [
+                            "UART_TX_INST"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe6[5]",
+                        "net": "r_Tx_Data[5]",
+                        "path": [
+                            "UART_TX_INST"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe6[6]",
+                        "net": "r_Tx_Data[6]",
+                        "path": [
+                            "UART_TX_INST"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe6[7]",
+                        "net": "r_Tx_Data[7]",
+                        "path": [
+                            "UART_TX_INST"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe7",
+                        "net": "r_Tx_Active",
+                        "path": [
+                            "UART_TX_INST"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe8[0]",
+                        "net": "r_SM_Main[0]",
+                        "path": [
+                            "UART_TX_INST"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe8[1]",
+                        "net": "r_SM_Main[1]",
+                        "path": [
+                            "UART_TX_INST"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe8[2]",
+                        "net": "r_SM_Main[2]",
+                        "path": [
+                            "UART_TX_INST"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe9[0]",
+                        "net": "r_Clock_Count[0]",
+                        "path": [
+                            "UART_TX_INST"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe9[1]",
+                        "net": "r_Clock_Count[1]",
+                        "path": [
+                            "UART_TX_INST"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe9[2]",
+                        "net": "r_Clock_Count[2]",
+                        "path": [
+                            "UART_TX_INST"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe9[3]",
+                        "net": "r_Clock_Count[3]",
+                        "path": [
+                            "UART_TX_INST"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe9[4]",
+                        "net": "r_Clock_Count[4]",
+                        "path": [
+                            "UART_TX_INST"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe9[5]",
+                        "net": "r_Clock_Count[5]",
+                        "path": [
+                            "UART_TX_INST"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe9[6]",
+                        "net": "r_Clock_Count[6]",
+                        "path": [
+                            "UART_TX_INST"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe9[7]",
+                        "net": "r_Clock_Count[7]",
+                        "path": [
+                            "UART_TX_INST"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe10[0]",
+                        "net": "r_Bit_Index[0]",
+                        "path": [
+                            "UART_TX_INST"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe10[1]",
+                        "net": "r_Bit_Index[1]",
+                        "path": [
+                            "UART_TX_INST"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe10[2]",
+                        "net": "r_Bit_Index[2]",
+                        "path": [
+                            "UART_TX_INST"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe11",
+                        "net": "o_Tx_Serial",
+                        "path": [
+                            "UART_TX_INST"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe12",
+                        "net": "o_Tx_Done",
+                        "path": [
+                            "UART_TX_INST"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe13",
+                        "net": "o_Tx_Active",
+                        "path": [
+                            "UART_TX_INST"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe14",
+                        "net": "i_Tx_DV",
+                        "path": [
+                            "UART_TX_INST"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe15[0]",
+                        "net": "i_Tx_Byte[0]",
+                        "path": [
+                            "UART_TX_INST"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe15[1]",
+                        "net": "i_Tx_Byte[1]",
+                        "path": [
+                            "UART_TX_INST"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe15[2]",
+                        "net": "i_Tx_Byte[2]",
+                        "path": [
+                            "UART_TX_INST"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe15[3]",
+                        "net": "i_Tx_Byte[3]",
+                        "path": [
+                            "UART_TX_INST"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe15[4]",
+                        "net": "i_Tx_Byte[4]",
+                        "path": [
+                            "UART_TX_INST"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe15[5]",
+                        "net": "i_Tx_Byte[5]",
+                        "path": [
+                            "UART_TX_INST"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe15[6]",
+                        "net": "i_Tx_Byte[6]",
+                        "path": [
+                            "UART_TX_INST"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe15[7]",
+                        "net": "i_Tx_Byte[7]",
+                        "path": [
+                            "UART_TX_INST"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe16",
+                        "net": "i_Clock",
+                        "path": [
+                            "UART_TX_INST"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe17[0]",
+                        "net": "o_Rx_Byte[0]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe17[1]",
+                        "net": "o_Rx_Byte[1]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe17[2]",
+                        "net": "o_Rx_Byte[2]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe17[3]",
+                        "net": "o_Rx_Byte[3]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe17[4]",
+                        "net": "o_Rx_Byte[4]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe17[5]",
+                        "net": "o_Rx_Byte[5]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe17[6]",
+                        "net": "o_Rx_Byte[6]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe17[7]",
+                        "net": "o_Rx_Byte[7]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe18",
+                        "net": "o_Tx_Serial",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe19",
+                        "net": "o_Tx_Done",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe20",
+                        "net": "o_Tx_Active",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe21",
+                        "net": "o_Rx_DV",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe22[0]",
+                        "net": "o_Rx_Byte[0]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe22[1]",
+                        "net": "o_Rx_Byte[1]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe22[2]",
+                        "net": "o_Rx_Byte[2]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe22[3]",
+                        "net": "o_Rx_Byte[3]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe22[4]",
+                        "net": "o_Rx_Byte[4]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe22[5]",
+                        "net": "o_Rx_Byte[5]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe22[6]",
+                        "net": "o_Rx_Byte[6]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe22[7]",
+                        "net": "o_Rx_Byte[7]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe23",
+                        "net": "i_Rx_Serial",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe24",
+                        "net": "i_Clock",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe25[0]",
+                        "net": "r_SM_Main[0]",
+                        "path": [
+                            "UART_RX_INST"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe25[1]",
+                        "net": "r_SM_Main[1]",
+                        "path": [
+                            "UART_RX_INST"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe25[2]",
+                        "net": "r_SM_Main[2]",
+                        "path": [
+                            "UART_RX_INST"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe26",
+                        "net": "r_Rx_DV",
+                        "path": [
+                            "UART_RX_INST"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe27",
+                        "net": "r_Rx_Data_R",
+                        "path": [
+                            "UART_RX_INST"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe28",
+                        "net": "r_Rx_Data",
+                        "path": [
+                            "UART_RX_INST"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe29[0]",
+                        "net": "r_Rx_Byte[0]",
+                        "path": [
+                            "UART_RX_INST"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe29[1]",
+                        "net": "r_Rx_Byte[1]",
+                        "path": [
+                            "UART_RX_INST"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe29[2]",
+                        "net": "r_Rx_Byte[2]",
+                        "path": [
+                            "UART_RX_INST"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe29[3]",
+                        "net": "r_Rx_Byte[3]",
+                        "path": [
+                            "UART_RX_INST"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe29[4]",
+                        "net": "r_Rx_Byte[4]",
+                        "path": [
+                            "UART_RX_INST"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe29[5]",
+                        "net": "r_Rx_Byte[5]",
+                        "path": [
+                            "UART_RX_INST"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe29[6]",
+                        "net": "r_Rx_Byte[6]",
+                        "path": [
+                            "UART_RX_INST"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe29[7]",
+                        "net": "r_Rx_Byte[7]",
+                        "path": [
+                            "UART_RX_INST"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe30[0]",
+                        "net": "r_Clock_Count[0]",
+                        "path": [
+                            "UART_RX_INST"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe30[1]",
+                        "net": "r_Clock_Count[1]",
+                        "path": [
+                            "UART_RX_INST"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe30[2]",
+                        "net": "r_Clock_Count[2]",
+                        "path": [
+                            "UART_RX_INST"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe30[3]",
+                        "net": "r_Clock_Count[3]",
+                        "path": [
+                            "UART_RX_INST"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe30[4]",
+                        "net": "r_Clock_Count[4]",
+                        "path": [
+                            "UART_RX_INST"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe30[5]",
+                        "net": "r_Clock_Count[5]",
+                        "path": [
+                            "UART_RX_INST"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe30[6]",
+                        "net": "r_Clock_Count[6]",
+                        "path": [
+                            "UART_RX_INST"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe30[7]",
+                        "net": "r_Clock_Count[7]",
+                        "path": [
+                            "UART_RX_INST"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe31[0]",
+                        "net": "r_Bit_Index[0]",
+                        "path": [
+                            "UART_RX_INST"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe31[1]",
+                        "net": "r_Bit_Index[1]",
+                        "path": [
+                            "UART_RX_INST"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe31[2]",
+                        "net": "r_Bit_Index[2]",
+                        "path": [
+                            "UART_RX_INST"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe32",
+                        "net": "o_Rx_Verify",
+                        "path": [
+                            "UART_RX_INST"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe33",
+                        "net": "o_Rx_DV",
+                        "path": [
+                            "UART_RX_INST"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe34[0]",
+                        "net": "o_Rx_Byte[0]",
+                        "path": [
+                            "UART_RX_INST"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe34[1]",
+                        "net": "o_Rx_Byte[1]",
+                        "path": [
+                            "UART_RX_INST"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe34[2]",
+                        "net": "o_Rx_Byte[2]",
+                        "path": [
+                            "UART_RX_INST"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe34[3]",
+                        "net": "o_Rx_Byte[3]",
+                        "path": [
+                            "UART_RX_INST"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe34[4]",
+                        "net": "o_Rx_Byte[4]",
+                        "path": [
+                            "UART_RX_INST"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe34[5]",
+                        "net": "o_Rx_Byte[5]",
+                        "path": [
+                            "UART_RX_INST"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe34[6]",
+                        "net": "o_Rx_Byte[6]",
+                        "path": [
+                            "UART_RX_INST"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe34[7]",
+                        "net": "o_Rx_Byte[7]",
+                        "path": [
+                            "UART_RX_INST"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe35",
+                        "net": "i_Rx_Serial",
+                        "path": [
+                            "UART_RX_INST"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe36",
+                        "net": "i_Clock",
+                        "path": [
+                            "UART_RX_INST"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe37",
+                        "net": "o_Rx_DV",
+                        "path": []
+                    }
+                ]
+            }
+        }
+    ],
+    "vdbs": [
+        {
+            "file": "debug_top.post.vdb",
+            "instance": "edb_top_inst"
+        }
+    ],
+    "session": {
+        "wizard": {
+            "data_depth": 1024,
+            "capture_control": false,
+            "selected_nets": [
+                {
+                    "name": "o_Tx_Serial",
+                    "width": 1,
+                    "clk_domain": "i_Clock",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": []
+                },
+                {
+                    "name": "o_Tx_Active",
+                    "width": 1,
+                    "clk_domain": "i_Clock",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": []
+                },
+                {
+                    "name": "i_Clock",
+                    "width": 1,
+                    "clk_domain": "i_Clock",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": []
+                },
+                {
+                    "name": "o_Tx_Done",
+                    "width": 1,
+                    "clk_domain": "i_Clock",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": []
+                },
+                {
+                    "name": "i_Rx_Serial",
+                    "width": 1,
+                    "clk_domain": "i_Clock",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": []
+                },
+                {
+                    "name": "r_Tx_Done",
+                    "width": 1,
+                    "clk_domain": "i_Clock",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": [
+                        "UART_TX_INST"
+                    ]
+                },
+                {
+                    "name": "r_Tx_Data",
+                    "width": 8,
+                    "clk_domain": "i_Clock",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": [
+                        "UART_TX_INST"
+                    ],
+                    "net_idx_left": 7,
+                    "net_idx_right": 0
+                },
+                {
+                    "name": "r_Tx_Active",
+                    "width": 1,
+                    "clk_domain": "i_Clock",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": [
+                        "UART_TX_INST"
+                    ]
+                },
+                {
+                    "name": "r_SM_Main",
+                    "width": 3,
+                    "clk_domain": "i_Clock",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": [
+                        "UART_TX_INST"
+                    ],
+                    "net_idx_left": 2,
+                    "net_idx_right": 0
+                },
+                {
+                    "name": "r_Clock_Count",
+                    "width": 8,
+                    "clk_domain": "i_Clock",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": [
+                        "UART_TX_INST"
+                    ],
+                    "net_idx_left": 7,
+                    "net_idx_right": 0
+                },
+                {
+                    "name": "r_Bit_Index",
+                    "width": 3,
+                    "clk_domain": "i_Clock",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": [
+                        "UART_TX_INST"
+                    ],
+                    "net_idx_left": 2,
+                    "net_idx_right": 0
+                },
+                {
+                    "name": "o_Tx_Serial",
+                    "width": 1,
+                    "clk_domain": "i_Clock",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": [
+                        "UART_TX_INST"
+                    ]
+                },
+                {
+                    "name": "o_Tx_Done",
+                    "width": 1,
+                    "clk_domain": "i_Clock",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": [
+                        "UART_TX_INST"
+                    ]
+                },
+                {
+                    "name": "o_Tx_Active",
+                    "width": 1,
+                    "clk_domain": "i_Clock",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": [
+                        "UART_TX_INST"
+                    ]
+                },
+                {
+                    "name": "i_Tx_DV",
+                    "width": 1,
+                    "clk_domain": "i_Clock",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": [
+                        "UART_TX_INST"
+                    ]
+                },
+                {
+                    "name": "i_Tx_Byte",
+                    "width": 8,
+                    "clk_domain": "i_Clock",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": [
+                        "UART_TX_INST"
+                    ],
+                    "net_idx_left": 7,
+                    "net_idx_right": 0
+                },
+                {
+                    "name": "i_Clock",
+                    "width": 1,
+                    "clk_domain": "i_Clock",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": [
+                        "UART_TX_INST"
+                    ]
+                },
+                {
+                    "name": "o_Rx_Byte",
+                    "width": 8,
+                    "clk_domain": "i_Clock",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": [],
+                    "net_idx_left": 7,
+                    "net_idx_right": 0
+                },
+                {
+                    "name": "o_Tx_Serial",
+                    "width": 1,
+                    "clk_domain": "i_Clock",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": []
+                },
+                {
+                    "name": "o_Tx_Done",
+                    "width": 1,
+                    "clk_domain": "i_Clock",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": []
+                },
+                {
+                    "name": "o_Tx_Active",
+                    "width": 1,
+                    "clk_domain": "i_Clock",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": []
+                },
+                {
+                    "name": "o_Rx_DV",
+                    "width": 1,
+                    "clk_domain": "i_Clock",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": []
+                },
+                {
+                    "name": "o_Rx_Byte",
+                    "width": 8,
+                    "clk_domain": "i_Clock",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": [],
+                    "net_idx_left": 7,
+                    "net_idx_right": 0
+                },
+                {
+                    "name": "i_Rx_Serial",
+                    "width": 1,
+                    "clk_domain": "i_Clock",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": []
+                },
+                {
+                    "name": "i_Clock",
+                    "width": 1,
+                    "clk_domain": "i_Clock",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": []
+                },
+                {
+                    "name": "r_SM_Main",
+                    "width": 3,
+                    "clk_domain": "i_Clock",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": [
+                        "UART_RX_INST"
+                    ],
+                    "net_idx_left": 2,
+                    "net_idx_right": 0
+                },
+                {
+                    "name": "r_Rx_DV",
+                    "width": 1,
+                    "clk_domain": "i_Clock",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": [
+                        "UART_RX_INST"
+                    ]
+                },
+                {
+                    "name": "r_Rx_Data_R",
+                    "width": 1,
+                    "clk_domain": "i_Clock",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": [
+                        "UART_RX_INST"
+                    ]
+                },
+                {
+                    "name": "r_Rx_Data",
+                    "width": 1,
+                    "clk_domain": "i_Clock",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": [
+                        "UART_RX_INST"
+                    ]
+                },
+                {
+                    "name": "r_Rx_Byte",
+                    "width": 8,
+                    "clk_domain": "i_Clock",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": [
+                        "UART_RX_INST"
+                    ],
+                    "net_idx_left": 7,
+                    "net_idx_right": 0
+                },
+                {
+                    "name": "r_Clock_Count",
+                    "width": 8,
+                    "clk_domain": "i_Clock",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": [
+                        "UART_RX_INST"
+                    ],
+                    "net_idx_left": 7,
+                    "net_idx_right": 0
+                },
+                {
+                    "name": "r_Bit_Index",
+                    "width": 3,
+                    "clk_domain": "i_Clock",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": [
+                        "UART_RX_INST"
+                    ],
+                    "net_idx_left": 2,
+                    "net_idx_right": 0
+                },
+                {
+                    "name": "o_Rx_Verify",
+                    "width": 1,
+                    "clk_domain": "i_Clock",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": [
+                        "UART_RX_INST"
+                    ]
+                },
+                {
+                    "name": "o_Rx_DV",
+                    "width": 1,
+                    "clk_domain": "i_Clock",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": [
+                        "UART_RX_INST"
+                    ]
+                },
+                {
+                    "name": "o_Rx_Byte",
+                    "width": 8,
+                    "clk_domain": "i_Clock",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": [
+                        "UART_RX_INST"
+                    ],
+                    "net_idx_left": 7,
+                    "net_idx_right": 0
+                },
+                {
+                    "name": "i_Rx_Serial",
+                    "width": 1,
+                    "clk_domain": "i_Clock",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": [
+                        "UART_RX_INST"
+                    ]
+                },
+                {
+                    "name": "i_Clock",
+                    "width": 1,
+                    "clk_domain": "i_Clock",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": [
+                        "UART_RX_INST"
+                    ]
+                },
+                {
+                    "name": "o_Rx_DV",
+                    "width": 1,
+                    "clk_domain": "i_Clock",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": []
+                }
+            ],
+            "top_module": "uart",
+            "db_checksum": "ba5fce12098a2c03e7bae2e9a172d1842464edfca8e284870b3519e987537970",
+            "src": "elaborate",
+            "jtag_user": "USER1",
+            "input_pipeline": 1
+        }
+    }
+}

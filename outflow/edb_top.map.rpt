@@ -1,0 +1,470 @@
+Efinity Synthesis report for project edb_top
+Version: 2023.2.307
+Generated at: Jun 11, 2024 09:58:48
+Copyright (C) 2013 - 2023  All rights reserved.
+
+### ### ### ### ### ### ### ### ### ### ### ### ### ### ###
+Top-level Entity Name : edb_top
+
+### ### File List (begin) ### ### ###
+/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/work_dbg/debug_top.v
+### ### File List (end) ### ### ###
+
+"MEM|SYN-0677" : ... Zero initialization of uninitialized memory block 'ram'. (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/work_dbg/debug_top.v:550)
+
+### ### EFX_FF CE enables (begin) ### ### ###
+Total number of enable signals: 86
+Total number of FFs with enable signals: 946
+CE signal <la0/n47851>, number of controlling flip flops: 64
+CE signal <ceg_net5>, number of controlling flip flops: 3
+CE signal <la0/n1160>, number of controlling flip flops: 21
+CE signal <la0/n46868>, number of controlling flip flops: 64
+CE signal <la0/n46932>, number of controlling flip flops: 64
+CE signal <la0/n46996>, number of controlling flip flops: 64
+CE signal <la0/n2019>, number of controlling flip flops: 22
+CE signal <la0/addr_ct_en>, number of controlling flip flops: 25
+CE signal <n4016>, number of controlling flip flops: 4
+CE signal <ceg_net26>, number of controlling flip flops: 6
+CE signal <la0/word_ct_en>, number of controlling flip flops: 16
+CE signal <ceg_net14>, number of controlling flip flops: 64
+CE signal <la0/n2872>, number of controlling flip flops: 3
+CE signal <la0/n3705>, number of controlling flip flops: 3
+CE signal <la0/n4538>, number of controlling flip flops: 3
+CE signal <la0/n5371>, number of controlling flip flops: 3
+CE signal <la0/n6204>, number of controlling flip flops: 3
+CE signal <la0/n7037>, number of controlling flip flops: 3
+CE signal <la0/n7926>, number of controlling flip flops: 3
+CE signal <la0/n7941>, number of controlling flip flops: 8
+CE signal <la0/n8139>, number of controlling flip flops: 8
+CE signal <la0/n8767>, number of controlling flip flops: 3
+CE signal <la0/n9621>, number of controlling flip flops: 3
+CE signal <la0/n9636>, number of controlling flip flops: 3
+CE signal <la0/n9834>, number of controlling flip flops: 3
+CE signal <la0/n10513>, number of controlling flip flops: 3
+CE signal <la0/n10528>, number of controlling flip flops: 8
+CE signal <la0/n10726>, number of controlling flip flops: 8
+CE signal <la0/n11375>, number of controlling flip flops: 3
+CE signal <la0/n11390>, number of controlling flip flops: 3
+CE signal <la0/n11588>, number of controlling flip flops: 3
+CE signal <la0/n12211>, number of controlling flip flops: 3
+CE signal <la0/n13044>, number of controlling flip flops: 3
+CE signal <la0/n13877>, number of controlling flip flops: 3
+CE signal <la0/n14710>, number of controlling flip flops: 3
+CE signal <la0/n15599>, number of controlling flip flops: 3
+CE signal <la0/n15614>, number of controlling flip flops: 8
+CE signal <la0/n15812>, number of controlling flip flops: 8
+CE signal <la0/n16440>, number of controlling flip flops: 3
+CE signal <la0/n17329>, number of controlling flip flops: 3
+CE signal <la0/n17344>, number of controlling flip flops: 8
+CE signal <la0/n17542>, number of controlling flip flops: 8
+CE signal <la0/n18170>, number of controlling flip flops: 3
+CE signal <la0/n19003>, number of controlling flip flops: 3
+CE signal <la0/n19836>, number of controlling flip flops: 3
+CE signal <la0/n20669>, number of controlling flip flops: 3
+CE signal <la0/n21558>, number of controlling flip flops: 3
+CE signal <la0/n21573>, number of controlling flip flops: 8
+CE signal <la0/n21771>, number of controlling flip flops: 8
+CE signal <la0/n22399>, number of controlling flip flops: 3
+CE signal <la0/n23232>, number of controlling flip flops: 3
+CE signal <la0/n24086>, number of controlling flip flops: 3
+CE signal <la0/n24101>, number of controlling flip flops: 3
+CE signal <la0/n24299>, number of controlling flip flops: 3
+CE signal <la0/n24922>, number of controlling flip flops: 3
+CE signal <la0/n25755>, number of controlling flip flops: 3
+CE signal <la0/n26588>, number of controlling flip flops: 3
+CE signal <la0/n27477>, number of controlling flip flops: 3
+CE signal <la0/n27492>, number of controlling flip flops: 8
+CE signal <la0/n27690>, number of controlling flip flops: 8
+CE signal <la0/n28374>, number of controlling flip flops: 3
+CE signal <la0/n28389>, number of controlling flip flops: 8
+CE signal <la0/n28587>, number of controlling flip flops: 8
+CE signal <la0/n29236>, number of controlling flip flops: 3
+CE signal <la0/n29251>, number of controlling flip flops: 3
+CE signal <la0/n29449>, number of controlling flip flops: 3
+CE signal <la0/n30072>, number of controlling flip flops: 3
+CE signal <la0/n30905>, number of controlling flip flops: 3
+CE signal <la0/n31794>, number of controlling flip flops: 3
+CE signal <la0/n31809>, number of controlling flip flops: 8
+CE signal <la0/n32007>, number of controlling flip flops: 8
+CE signal <la0/n32635>, number of controlling flip flops: 3
+CE signal <la0/n33468>, number of controlling flip flops: 3
+CE signal <la0/n34301>, number of controlling flip flops: 3
+CE signal <la0/regsel_ld_en>, number of controlling flip flops: 13
+CE signal <ceg_net221>, number of controlling flip flops: 32
+CE signal <la0/la_biu_inst/n442>, number of controlling flip flops: 12
+CE signal <la0/la_biu_inst/n1588>, number of controlling flip flops: 65
+CE signal <ceg_net345>, number of controlling flip flops: 2
+CE signal <ceg_net348>, number of controlling flip flops: 1
+CE signal <la0/la_biu_inst/fifo_with_read_inst/is_last_data>, number of controlling flip flops: 10
+CE signal <la0/la_biu_inst/n2366>, number of controlling flip flops: 10
+CE signal <la0/la_biu_inst/fifo_push>, number of controlling flip flops: 10
+CE signal <~ceg_net450>, number of controlling flip flops: 22
+CE signal <debug_hub_inst/n266>, number of controlling flip flops: 4
+CE signal <debug_hub_inst/n95>, number of controlling flip flops: 82
+### ### EFX_FF CE enables (end) ### ### ###
+
+### ### EFX_FF SR set/reset (begin) ### ### ###
+Total number of set/reset signals: 6
+Total number of FFs with set/reset signals: 967
+SR signal <bscan_RESET>, number of controlling flip flops: 835
+SR signal <la0/la_soft_reset_in>, number of controlling flip flops: 2
+SR signal <la0/la_resetn>, number of controlling flip flops: 77
+SR signal <la0/n48177>, number of controlling flip flops: 1
+SR signal <la0/la_biu_inst/fifo_rstn>, number of controlling flip flops: 21
+SR signal <la0/la_biu_inst/fifo_with_read_inst/n1045>, number of controlling flip flops: 31
+### ### EFX_FF SR set/reset (end) ### ### ###
+
+### ### Sequential Elements Trimming Report (begin) ### ### ### 
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/work_dbg/debug_top.v (5714)" removed instance : la0/GEN_PROBE[37].genblk7.genblk3.trigger_cu/i25
+@ "/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/work_dbg/debug_top.v (5653)" representative instance : la0/GEN_PROBE[37].genblk7.genblk3.trigger_cu/i5
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/work_dbg/debug_top.v (5653)" removed instance : la0/GEN_PROBE[36].genblk7.genblk3.trigger_cu/i6
+@ "/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/work_dbg/debug_top.v (5653)" representative instance : la0/GEN_PROBE[37].genblk7.genblk3.trigger_cu/i6
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/work_dbg/debug_top.v (5714)" removed instance : la0/GEN_PROBE[36].genblk7.genblk3.trigger_cu/i25
+@ "/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/work_dbg/debug_top.v (5653)" representative instance : la0/GEN_PROBE[36].genblk7.genblk3.trigger_cu/i5
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/work_dbg/debug_top.v (5653)" removed instance : la0/GEN_PROBE[35].genblk7.genblk3.trigger_cu/i6
+@ "/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/work_dbg/debug_top.v (5653)" representative instance : la0/GEN_PROBE[37].genblk7.genblk3.trigger_cu/i6
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/work_dbg/debug_top.v (5714)" removed instance : la0/GEN_PROBE[35].genblk7.genblk3.trigger_cu/i25
+@ "/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/work_dbg/debug_top.v (5653)" representative instance : la0/GEN_PROBE[35].genblk7.genblk3.trigger_cu/i5
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/work_dbg/debug_top.v (5653)" removed instance : la0/GEN_PROBE[33].genblk7.genblk3.trigger_cu/i6
+@ "/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/work_dbg/debug_top.v (5653)" representative instance : la0/GEN_PROBE[37].genblk7.genblk3.trigger_cu/i6
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/work_dbg/debug_top.v (5714)" removed instance : la0/GEN_PROBE[33].genblk7.genblk3.trigger_cu/i25
+@ "/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/work_dbg/debug_top.v (5653)" representative instance : la0/GEN_PROBE[33].genblk7.genblk3.trigger_cu/i5
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/work_dbg/debug_top.v (5653)" removed instance : la0/GEN_PROBE[32].genblk7.genblk3.trigger_cu/i6
+@ "/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/work_dbg/debug_top.v (5653)" representative instance : la0/GEN_PROBE[37].genblk7.genblk3.trigger_cu/i6
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/work_dbg/debug_top.v (5714)" removed instance : la0/GEN_PROBE[32].genblk7.genblk3.trigger_cu/i25
+@ "/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/work_dbg/debug_top.v (5653)" representative instance : la0/GEN_PROBE[32].genblk7.genblk3.trigger_cu/i5
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/work_dbg/debug_top.v (5653)" removed instance : la0/GEN_PROBE[28].genblk7.genblk3.trigger_cu/i6
+@ "/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/work_dbg/debug_top.v (5653)" representative instance : la0/GEN_PROBE[37].genblk7.genblk3.trigger_cu/i6
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/work_dbg/debug_top.v (5714)" removed instance : la0/GEN_PROBE[28].genblk7.genblk3.trigger_cu/i25
+@ "/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/work_dbg/debug_top.v (5653)" representative instance : la0/GEN_PROBE[28].genblk7.genblk3.trigger_cu/i5
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/work_dbg/debug_top.v (5653)" removed instance : la0/GEN_PROBE[27].genblk7.genblk3.trigger_cu/i6
+@ "/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/work_dbg/debug_top.v (5653)" representative instance : la0/GEN_PROBE[37].genblk7.genblk3.trigger_cu/i6
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/work_dbg/debug_top.v (5714)" removed instance : la0/GEN_PROBE[27].genblk7.genblk3.trigger_cu/i25
+@ "/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/work_dbg/debug_top.v (5653)" representative instance : la0/GEN_PROBE[27].genblk7.genblk3.trigger_cu/i5
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/work_dbg/debug_top.v (5653)" removed instance : la0/GEN_PROBE[26].genblk7.genblk3.trigger_cu/i6
+@ "/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/work_dbg/debug_top.v (5653)" representative instance : la0/GEN_PROBE[37].genblk7.genblk3.trigger_cu/i6
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/work_dbg/debug_top.v (5714)" removed instance : la0/GEN_PROBE[26].genblk7.genblk3.trigger_cu/i25
+@ "/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/work_dbg/debug_top.v (5653)" representative instance : la0/GEN_PROBE[26].genblk7.genblk3.trigger_cu/i5
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/work_dbg/debug_top.v (5653)" removed instance : la0/GEN_PROBE[24].genblk7.genblk3.trigger_cu/i6
+@ "/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/work_dbg/debug_top.v (5653)" representative instance : la0/GEN_PROBE[37].genblk7.genblk3.trigger_cu/i6
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/work_dbg/debug_top.v (5714)" removed instance : la0/GEN_PROBE[24].genblk7.genblk3.trigger_cu/i25
+@ "/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/work_dbg/debug_top.v (5653)" representative instance : la0/GEN_PROBE[24].genblk7.genblk3.trigger_cu/i5
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/work_dbg/debug_top.v (5653)" removed instance : la0/GEN_PROBE[23].genblk7.genblk3.trigger_cu/i6
+@ "/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/work_dbg/debug_top.v (5653)" representative instance : la0/GEN_PROBE[37].genblk7.genblk3.trigger_cu/i6
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/work_dbg/debug_top.v (5714)" removed instance : la0/GEN_PROBE[23].genblk7.genblk3.trigger_cu/i25
+@ "/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/work_dbg/debug_top.v (5653)" representative instance : la0/GEN_PROBE[23].genblk7.genblk3.trigger_cu/i5
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/work_dbg/debug_top.v (5653)" removed instance : la0/GEN_PROBE[21].genblk7.genblk3.trigger_cu/i6
+@ "/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/work_dbg/debug_top.v (5653)" representative instance : la0/GEN_PROBE[37].genblk7.genblk3.trigger_cu/i6
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/work_dbg/debug_top.v (5714)" removed instance : la0/GEN_PROBE[21].genblk7.genblk3.trigger_cu/i25
+@ "/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/work_dbg/debug_top.v (5653)" representative instance : la0/GEN_PROBE[21].genblk7.genblk3.trigger_cu/i5
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/work_dbg/debug_top.v (5653)" removed instance : la0/GEN_PROBE[20].genblk7.genblk3.trigger_cu/i6
+@ "/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/work_dbg/debug_top.v (5653)" representative instance : la0/GEN_PROBE[37].genblk7.genblk3.trigger_cu/i6
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/work_dbg/debug_top.v (5714)" removed instance : la0/GEN_PROBE[20].genblk7.genblk3.trigger_cu/i25
+@ "/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/work_dbg/debug_top.v (5653)" representative instance : la0/GEN_PROBE[20].genblk7.genblk3.trigger_cu/i5
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/work_dbg/debug_top.v (5653)" removed instance : la0/GEN_PROBE[19].genblk7.genblk3.trigger_cu/i6
+@ "/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/work_dbg/debug_top.v (5653)" representative instance : la0/GEN_PROBE[37].genblk7.genblk3.trigger_cu/i6
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/work_dbg/debug_top.v (5714)" removed instance : la0/GEN_PROBE[19].genblk7.genblk3.trigger_cu/i25
+@ "/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/work_dbg/debug_top.v (5653)" representative instance : la0/GEN_PROBE[19].genblk7.genblk3.trigger_cu/i5
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/work_dbg/debug_top.v (5653)" removed instance : la0/GEN_PROBE[18].genblk7.genblk3.trigger_cu/i6
+@ "/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/work_dbg/debug_top.v (5653)" representative instance : la0/GEN_PROBE[37].genblk7.genblk3.trigger_cu/i6
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/work_dbg/debug_top.v (5714)" removed instance : la0/GEN_PROBE[18].genblk7.genblk3.trigger_cu/i25
+@ "/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/work_dbg/debug_top.v (5653)" representative instance : la0/GEN_PROBE[18].genblk7.genblk3.trigger_cu/i5
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/work_dbg/debug_top.v (5653)" removed instance : la0/GEN_PROBE[16].genblk7.genblk3.trigger_cu/i6
+@ "/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/work_dbg/debug_top.v (5653)" representative instance : la0/GEN_PROBE[37].genblk7.genblk3.trigger_cu/i6
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/work_dbg/debug_top.v (5714)" removed instance : la0/GEN_PROBE[16].genblk7.genblk3.trigger_cu/i25
+@ "/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/work_dbg/debug_top.v (5653)" representative instance : la0/GEN_PROBE[16].genblk7.genblk3.trigger_cu/i5
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/work_dbg/debug_top.v (5653)" removed instance : la0/GEN_PROBE[14].genblk7.genblk3.trigger_cu/i6
+@ "/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/work_dbg/debug_top.v (5653)" representative instance : la0/GEN_PROBE[37].genblk7.genblk3.trigger_cu/i6
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/work_dbg/debug_top.v (5714)" removed instance : la0/GEN_PROBE[14].genblk7.genblk3.trigger_cu/i25
+@ "/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/work_dbg/debug_top.v (5653)" representative instance : la0/GEN_PROBE[14].genblk7.genblk3.trigger_cu/i5
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/work_dbg/debug_top.v (5653)" removed instance : la0/GEN_PROBE[13].genblk7.genblk3.trigger_cu/i6
+@ "/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/work_dbg/debug_top.v (5653)" representative instance : la0/GEN_PROBE[37].genblk7.genblk3.trigger_cu/i6
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/work_dbg/debug_top.v (5714)" removed instance : la0/GEN_PROBE[13].genblk7.genblk3.trigger_cu/i25
+@ "/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/work_dbg/debug_top.v (5653)" representative instance : la0/GEN_PROBE[13].genblk7.genblk3.trigger_cu/i5
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/work_dbg/debug_top.v (5653)" removed instance : la0/GEN_PROBE[12].genblk7.genblk3.trigger_cu/i6
+@ "/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/work_dbg/debug_top.v (5653)" representative instance : la0/GEN_PROBE[37].genblk7.genblk3.trigger_cu/i6
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/work_dbg/debug_top.v (5714)" removed instance : la0/GEN_PROBE[12].genblk7.genblk3.trigger_cu/i25
+@ "/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/work_dbg/debug_top.v (5653)" representative instance : la0/GEN_PROBE[12].genblk7.genblk3.trigger_cu/i5
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/work_dbg/debug_top.v (5653)" removed instance : la0/GEN_PROBE[11].genblk7.genblk3.trigger_cu/i6
+@ "/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/work_dbg/debug_top.v (5653)" representative instance : la0/GEN_PROBE[37].genblk7.genblk3.trigger_cu/i6
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/work_dbg/debug_top.v (5714)" removed instance : la0/GEN_PROBE[11].genblk7.genblk3.trigger_cu/i25
+@ "/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/work_dbg/debug_top.v (5653)" representative instance : la0/GEN_PROBE[11].genblk7.genblk3.trigger_cu/i5
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/work_dbg/debug_top.v (5653)" removed instance : la0/GEN_PROBE[7].genblk7.genblk3.trigger_cu/i6
+@ "/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/work_dbg/debug_top.v (5653)" representative instance : la0/GEN_PROBE[37].genblk7.genblk3.trigger_cu/i6
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/work_dbg/debug_top.v (5714)" removed instance : la0/GEN_PROBE[7].genblk7.genblk3.trigger_cu/i25
+@ "/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/work_dbg/debug_top.v (5653)" representative instance : la0/GEN_PROBE[7].genblk7.genblk3.trigger_cu/i5
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/work_dbg/debug_top.v (5653)" removed instance : la0/GEN_PROBE[5].genblk7.genblk3.trigger_cu/i6
+@ "/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/work_dbg/debug_top.v (5653)" representative instance : la0/GEN_PROBE[37].genblk7.genblk3.trigger_cu/i6
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/work_dbg/debug_top.v (5714)" removed instance : la0/GEN_PROBE[5].genblk7.genblk3.trigger_cu/i25
+@ "/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/work_dbg/debug_top.v (5653)" representative instance : la0/GEN_PROBE[5].genblk7.genblk3.trigger_cu/i5
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/work_dbg/debug_top.v (5653)" removed instance : la0/GEN_PROBE[4].genblk7.genblk3.trigger_cu/i6
+@ "/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/work_dbg/debug_top.v (5653)" representative instance : la0/GEN_PROBE[37].genblk7.genblk3.trigger_cu/i6
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/work_dbg/debug_top.v (5714)" removed instance : la0/GEN_PROBE[4].genblk7.genblk3.trigger_cu/i25
+@ "/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/work_dbg/debug_top.v (5653)" representative instance : la0/GEN_PROBE[4].genblk7.genblk3.trigger_cu/i5
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/work_dbg/debug_top.v (5653)" removed instance : la0/GEN_PROBE[3].genblk7.genblk3.trigger_cu/i6
+@ "/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/work_dbg/debug_top.v (5653)" representative instance : la0/GEN_PROBE[37].genblk7.genblk3.trigger_cu/i6
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/work_dbg/debug_top.v (5714)" removed instance : la0/GEN_PROBE[3].genblk7.genblk3.trigger_cu/i25
+@ "/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/work_dbg/debug_top.v (5653)" representative instance : la0/GEN_PROBE[3].genblk7.genblk3.trigger_cu/i5
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/work_dbg/debug_top.v (5653)" removed instance : la0/GEN_PROBE[2].genblk7.genblk3.trigger_cu/i6
+@ "/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/work_dbg/debug_top.v (5653)" representative instance : la0/GEN_PROBE[37].genblk7.genblk3.trigger_cu/i6
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/work_dbg/debug_top.v (5714)" removed instance : la0/GEN_PROBE[2].genblk7.genblk3.trigger_cu/i25
+@ "/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/work_dbg/debug_top.v (5653)" representative instance : la0/GEN_PROBE[2].genblk7.genblk3.trigger_cu/i5
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/work_dbg/debug_top.v (5653)" removed instance : la0/GEN_PROBE[1].genblk7.genblk3.trigger_cu/i6
+@ "/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/work_dbg/debug_top.v (5653)" representative instance : la0/GEN_PROBE[37].genblk7.genblk3.trigger_cu/i6
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/work_dbg/debug_top.v (5714)" removed instance : la0/GEN_PROBE[1].genblk7.genblk3.trigger_cu/i25
+@ "/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/work_dbg/debug_top.v (5653)" representative instance : la0/GEN_PROBE[1].genblk7.genblk3.trigger_cu/i5
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/work_dbg/debug_top.v (5653)" removed instance : la0/GEN_PROBE[0].genblk7.genblk3.trigger_cu/i6
+@ "/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/work_dbg/debug_top.v (5653)" representative instance : la0/GEN_PROBE[37].genblk7.genblk3.trigger_cu/i6
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/work_dbg/debug_top.v (5714)" removed instance : la0/GEN_PROBE[0].genblk7.genblk3.trigger_cu/i25
+@ "/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/work_dbg/debug_top.v (5653)" representative instance : la0/GEN_PROBE[0].genblk7.genblk3.trigger_cu/i5
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/work_dbg/debug_top.v (4559)" removed instance : la0/dff_2252/i64
+@ "/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/work_dbg/debug_top.v (5653)" representative instance : la0/GEN_PROBE[24].genblk7.genblk3.trigger_cu/i5
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/work_dbg/debug_top.v (4559)" removed instance : la0/dff_2252/i68
+@ "/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/work_dbg/debug_top.v (5653)" representative instance : la0/GEN_PROBE[26].genblk7.genblk3.trigger_cu/i5
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/work_dbg/debug_top.v (4559)" removed instance : la0/dff_2252/i1
+@ "/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/work_dbg/debug_top.v (5653)" representative instance : la0/GEN_PROBE[0].genblk7.genblk3.trigger_cu/i5
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/work_dbg/debug_top.v (4559)" removed instance : la0/dff_2252/i2
+@ "/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/work_dbg/debug_top.v (5653)" representative instance : la0/GEN_PROBE[1].genblk7.genblk3.trigger_cu/i5
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/work_dbg/debug_top.v (4559)" removed instance : la0/dff_2252/i3
+@ "/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/work_dbg/debug_top.v (5653)" representative instance : la0/GEN_PROBE[2].genblk7.genblk3.trigger_cu/i5
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/work_dbg/debug_top.v (4559)" removed instance : la0/dff_2252/i4
+@ "/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/work_dbg/debug_top.v (5653)" representative instance : la0/GEN_PROBE[3].genblk7.genblk3.trigger_cu/i5
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/work_dbg/debug_top.v (4559)" removed instance : la0/dff_2252/i5
+@ "/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/work_dbg/debug_top.v (5653)" representative instance : la0/GEN_PROBE[4].genblk7.genblk3.trigger_cu/i5
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/work_dbg/debug_top.v (4559)" removed instance : la0/dff_2252/i69
+@ "/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/work_dbg/debug_top.v (5653)" representative instance : la0/GEN_PROBE[27].genblk7.genblk3.trigger_cu/i5
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/work_dbg/debug_top.v (4559)" removed instance : la0/dff_2252/i70
+@ "/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/work_dbg/debug_top.v (5653)" representative instance : la0/GEN_PROBE[28].genblk7.genblk3.trigger_cu/i5
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/work_dbg/debug_top.v (4559)" removed instance : la0/dff_2252/i6
+@ "/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/work_dbg/debug_top.v (5653)" representative instance : la0/GEN_PROBE[5].genblk7.genblk3.trigger_cu/i5
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/work_dbg/debug_top.v (4559)" removed instance : la0/dff_2252/i15
+@ "/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/work_dbg/debug_top.v (5653)" representative instance : la0/GEN_PROBE[7].genblk7.genblk3.trigger_cu/i5
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/work_dbg/debug_top.v (4559)" removed instance : la0/dff_2252/i90
+@ "/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/work_dbg/debug_top.v (5653)" representative instance : la0/GEN_PROBE[32].genblk7.genblk3.trigger_cu/i5
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/work_dbg/debug_top.v (4559)" removed instance : la0/dff_2252/i91
+@ "/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/work_dbg/debug_top.v (5653)" representative instance : la0/GEN_PROBE[33].genblk7.genblk3.trigger_cu/i5
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/work_dbg/debug_top.v (4559)" removed instance : la0/dff_2252/i30
+@ "/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/work_dbg/debug_top.v (5653)" representative instance : la0/GEN_PROBE[11].genblk7.genblk3.trigger_cu/i5
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/work_dbg/debug_top.v (4559)" removed instance : la0/dff_2252/i31
+@ "/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/work_dbg/debug_top.v (5653)" representative instance : la0/GEN_PROBE[12].genblk7.genblk3.trigger_cu/i5
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/work_dbg/debug_top.v (4559)" removed instance : la0/dff_2252/i32
+@ "/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/work_dbg/debug_top.v (5653)" representative instance : la0/GEN_PROBE[13].genblk7.genblk3.trigger_cu/i5
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/work_dbg/debug_top.v (4559)" removed instance : la0/dff_2252/i33
+@ "/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/work_dbg/debug_top.v (5653)" representative instance : la0/GEN_PROBE[14].genblk7.genblk3.trigger_cu/i5
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/work_dbg/debug_top.v (4559)" removed instance : la0/dff_2252/i100
+@ "/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/work_dbg/debug_top.v (5653)" representative instance : la0/GEN_PROBE[35].genblk7.genblk3.trigger_cu/i5
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/work_dbg/debug_top.v (4559)" removed instance : la0/dff_2252/i101
+@ "/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/work_dbg/debug_top.v (5653)" representative instance : la0/GEN_PROBE[36].genblk7.genblk3.trigger_cu/i5
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/work_dbg/debug_top.v (4559)" removed instance : la0/dff_2252/i102
+@ "/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/work_dbg/debug_top.v (5653)" representative instance : la0/GEN_PROBE[37].genblk7.genblk3.trigger_cu/i5
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/work_dbg/debug_top.v (4559)" removed instance : la0/dff_2252/i42
+@ "/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/work_dbg/debug_top.v (5653)" representative instance : la0/GEN_PROBE[16].genblk7.genblk3.trigger_cu/i5
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/work_dbg/debug_top.v (4559)" removed instance : la0/dff_2252/i51
+@ "/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/work_dbg/debug_top.v (5653)" representative instance : la0/GEN_PROBE[18].genblk7.genblk3.trigger_cu/i5
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/work_dbg/debug_top.v (4559)" removed instance : la0/dff_2252/i52
+@ "/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/work_dbg/debug_top.v (5653)" representative instance : la0/GEN_PROBE[19].genblk7.genblk3.trigger_cu/i5
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/work_dbg/debug_top.v (4559)" removed instance : la0/dff_2252/i53
+@ "/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/work_dbg/debug_top.v (5653)" representative instance : la0/GEN_PROBE[20].genblk7.genblk3.trigger_cu/i5
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/work_dbg/debug_top.v (4559)" removed instance : la0/dff_2252/i54
+@ "/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/work_dbg/debug_top.v (5653)" representative instance : la0/GEN_PROBE[21].genblk7.genblk3.trigger_cu/i5
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/work_dbg/debug_top.v (4559)" removed instance : la0/dff_2252/i63
+@ "/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/work_dbg/debug_top.v (5653)" representative instance : la0/GEN_PROBE[23].genblk7.genblk3.trigger_cu/i5
+FF instance: la0/address_counter[25]~FF(unreachable)
+FF instance: la0/address_counter[26]~FF(unreachable)
+FF instance: la0/address_counter[27]~FF(unreachable)
+FF instance: la0/address_counter[28]~FF(unreachable)
+FF instance: la0/address_counter[29]~FF(unreachable)
+FF instance: la0/address_counter[30]~FF(unreachable)
+FF instance: la0/address_counter[31]~FF(unreachable)
+FF instance: la0/la_biu_inst/fifo_with_read_inst/next_segment_wr_pointer[0]~FF(unreachable)
+FF instance: la0/la_biu_inst/fifo_with_read_inst/segment_rd_pointer[10]~FF(unreachable)
+FF instance: la0/la_biu_inst/fifo_with_read_inst/segment_wr_pointer[10]~FF(unreachable)
+FF instance: la0/la_biu_inst/fifo_with_read_inst/next_segment_wr_pointer[1]~FF(unreachable)
+FF instance: la0/la_biu_inst/fifo_with_read_inst/next_segment_wr_pointer[2]~FF(unreachable)
+FF instance: la0/la_biu_inst/fifo_with_read_inst/next_segment_wr_pointer[3]~FF(unreachable)
+FF instance: la0/la_biu_inst/fifo_with_read_inst/next_segment_wr_pointer[4]~FF(unreachable)
+FF instance: la0/la_biu_inst/fifo_with_read_inst/next_segment_wr_pointer[5]~FF(unreachable)
+FF instance: la0/la_biu_inst/fifo_with_read_inst/next_segment_wr_pointer[6]~FF(unreachable)
+FF instance: la0/la_biu_inst/fifo_with_read_inst/next_segment_wr_pointer[7]~FF(unreachable)
+FF instance: la0/la_biu_inst/fifo_with_read_inst/next_segment_wr_pointer[8]~FF(unreachable)
+FF instance: la0/la_biu_inst/fifo_with_read_inst/next_segment_wr_pointer[9]~FF(unreachable)
+FF instance: la0/la_biu_inst/fifo_with_read_inst/next_segment_wr_pointer[10]~FF(unreachable)
+### ### Sequential Elements Trimming Report (end) ### ### ### 
+
+### ### Module Resource Usage Distribution Estimates (begin) ### ###
+
+**Note: some resources maybe grouped under different hierarchy due to optimization and LUT mapping
+
+Module                                                               FFs        ADDs        LUTs      RAMs DSP/MULTs
+------------------------------------------------------------         ---        ----        ----      ---- ---------
+edb_top:edb_top                                                  1846(0)       92(0)     1594(0)     21(0)      0(0)
+ +la0:edb_la_top_renamed_due_excessive_length_1               1760(1085)      92(39)   1556(772)     21(0)      0(0)
+  +axi_crc_i:edb_adbg_crc32                                       32(32)        0(0)      54(54)      0(0)      0(0)
+  +GEN_PROBE[0].genblk7.genblk3.trigger_cu:compare_unit(W...        7(7)        0(0)        8(8)      0(0)      0(0)
+  +GEN_PROBE[1].genblk7.genblk3.trigger_cu:compare_unit(W...        7(7)        0(0)      10(10)      0(0)      0(0)
+  +GEN_PROBE[2].genblk7.genblk3.trigger_cu:compare_unit(W...        7(7)        0(0)      10(10)      0(0)      0(0)
+  +GEN_PROBE[3].genblk7.genblk3.trigger_cu:compare_unit(W...        7(7)        0(0)      11(11)      0(0)      0(0)
+  +GEN_PROBE[4].genblk7.genblk3.trigger_cu:compare_unit(W...        7(7)        0(0)      10(10)      0(0)      0(0)
+  +GEN_PROBE[5].genblk7.genblk3.trigger_cu:compare_unit(W...        7(7)        0(0)      10(10)      0(0)      0(0)
+  +GEN_PROBE[6].genblk7.genblk3.trigger_cu:compare_unit(W...      19(19)        0(0)      29(29)      0(0)      0(0)
+  +GEN_PROBE[7].genblk7.genblk3.trigger_cu:compare_unit(W...        7(7)        0(0)        9(9)      0(0)      0(0)
+  +GEN_PROBE[8].genblk7.genblk3.trigger_cu:compare_unit(W...        9(9)        0(0)      14(14)      0(0)      0(0)
+  +GEN_PROBE[9].genblk7.genblk3.trigger_cu:compare_unit(W...      19(19)        0(0)      28(28)      0(0)      0(0)
+  +GEN_PROBE[10].genblk7.genblk3.trigger_cu:compare_unit(...        9(9)        0(0)      14(14)      0(0)      0(0)
+  +GEN_PROBE[11].genblk7.genblk3.trigger_cu:compare_unit(...        7(7)        0(0)        9(9)      0(0)      0(0)
+  +GEN_PROBE[12].genblk7.genblk3.trigger_cu:compare_unit(...        7(7)        0(0)      10(10)      0(0)      0(0)
+  +GEN_PROBE[13].genblk7.genblk3.trigger_cu:compare_unit(...        7(7)        0(0)      12(12)      0(0)      0(0)
+  +GEN_PROBE[14].genblk7.genblk3.trigger_cu:compare_unit(...        7(7)        0(0)      13(13)      0(0)      0(0)
+  +GEN_PROBE[15].genblk7.genblk3.trigger_cu:compare_unit(...      19(19)        0(0)      27(27)      0(0)      0(0)
+  +GEN_PROBE[16].genblk7.genblk3.trigger_cu:compare_unit(...        7(7)        0(0)        8(8)      0(0)      0(0)
+  +GEN_PROBE[17].genblk7.genblk3.trigger_cu:compare_unit(...      19(19)        0(0)      27(27)      0(0)      0(0)
+  +GEN_PROBE[18].genblk7.genblk3.trigger_cu:compare_unit(...        7(7)        0(0)        9(9)      0(0)      0(0)
+  +GEN_PROBE[19].genblk7.genblk3.trigger_cu:compare_unit(...        7(7)        0(0)        8(8)      0(0)      0(0)
+  +GEN_PROBE[20].genblk7.genblk3.trigger_cu:compare_unit(...        7(7)        0(0)        8(8)      0(0)      0(0)
+  +GEN_PROBE[21].genblk7.genblk3.trigger_cu:compare_unit(...        7(7)        0(0)      11(11)      0(0)      0(0)
+  +GEN_PROBE[22].genblk7.genblk3.trigger_cu:compare_unit(...      19(19)        0(0)      26(26)      0(0)      0(0)
+  +GEN_PROBE[23].genblk7.genblk3.trigger_cu:compare_unit(...        7(7)        0(0)        8(8)      0(0)      0(0)
+  +GEN_PROBE[24].genblk7.genblk3.trigger_cu:compare_unit(...        7(7)        0(0)        8(8)      0(0)      0(0)
+  +GEN_PROBE[25].genblk7.genblk3.trigger_cu:compare_unit(...        9(9)        0(0)      13(13)      0(0)      0(0)
+  +GEN_PROBE[26].genblk7.genblk3.trigger_cu:compare_unit(...        7(7)        0(0)        9(9)      0(0)      0(0)
+  +GEN_PROBE[27].genblk7.genblk3.trigger_cu:compare_unit(...        7(7)        0(0)        8(8)      0(0)      0(0)
+  +GEN_PROBE[28].genblk7.genblk3.trigger_cu:compare_unit(...        7(7)        0(0)        8(8)      0(0)      0(0)
+  +GEN_PROBE[29].genblk7.genblk3.trigger_cu:compare_unit(...      19(19)        0(0)      26(26)      0(0)      0(0)
+  +GEN_PROBE[30].genblk7.genblk3.trigger_cu:compare_unit(...      19(19)        0(0)      28(28)      0(0)      0(0)
+  +GEN_PROBE[31].genblk7.genblk3.trigger_cu:compare_unit(...        9(9)        0(0)      15(15)      0(0)      0(0)
+  +GEN_PROBE[32].genblk7.genblk3.trigger_cu:compare_unit(...        7(7)        0(0)        8(8)      0(0)      0(0)
+  +GEN_PROBE[33].genblk7.genblk3.trigger_cu:compare_unit(...        7(7)        0(0)        8(8)      0(0)      0(0)
+  +GEN_PROBE[34].genblk7.genblk3.trigger_cu:compare_unit(...      19(19)        0(0)      26(26)      0(0)      0(0)
+  +GEN_PROBE[35].genblk7.genblk3.trigger_cu:compare_unit(...        7(7)        0(0)        9(9)      0(0)      0(0)
+  +GEN_PROBE[36].genblk7.genblk3.trigger_cu:compare_unit(...        7(7)        0(0)        9(9)      0(0)      0(0)
+  +GEN_PROBE[37].genblk7.genblk3.trigger_cu:compare_unit(...        8(8)        0(0)        8(8)      0(0)      0(0)
+  +trigger_tu:trigger_unit(WIDTH=32'b0100110,PIPE=1)                1(1)        0(0)        6(6)      0(0)      0(0)
+  +la_biu_inst:la_biu(CAPTURE_WIDTH=32'b01100110)                271(94)       53(0)    212(134)     21(0)      0(0)
+   +fifo_with_read_inst:fifo_with_read(DATA_WIDTH=32'b011...    177(157)      53(53)      78(48)     21(0)      0(0)
+    +transcode_write_addr:fifo_address_trancode_unit              10(10)        0(0)      10(10)      0(0)      0(0)
+    +transcode_read_addr:fifo_address_trancode_unit               10(10)        0(0)      20(20)      0(0)      0(0)
+    +simple_dual_port_ram_inst:edb_simple_dual_port_ram(D...        0(0)        0(0)        0(0)    21(21)      0(0)
+ +debug_hub_inst:debug_hub                                        86(86)        0(0)      38(38)      0(0)      0(0)
+
+### ### Module Resource Usage Distribution Estimates (end) ### ###
+
+
+### ### Clock Load Distribution Report (begin) ### ###
+
+     Clock     Flip-Flops   Memory Ports    Multipliers
+     -----     ----------   ------------    -----------
+ bscan_TCK            835              0              0
+   la0_clk           1011             42              0
+
+### ### Clock Load Distribution Report (end) ### ###
+
+### ### EFX Flow Options (begin) ### ### ###
+
+family : Trion
+device : T120F324
+project : edb_top
+root : edb_top
+I,include : /home/tejas/Documents/Vicharak/FPGA_Implementation/UART
+output-dir : /home/tejas/Documents/Vicharak/FPGA_Implementation/UART/outflow
+work-dir : /home/tejas/Documents/Vicharak/FPGA_Implementation/UART/work_dbg
+insert-ios : 0
+max-carry-cascade : 640
+max_mult : -1
+max_ram : -1
+mode : speed
+
+### ### EFX Flow Options (end) ### ### ###
+
+### ### Resource Summary (begin) ### ### ### 
+INPUT  PORTS    : 	113
+OUTPUT PORTS    : 	1
+
+EFX_ADD         : 	92
+EFX_LUT4        : 	1594
+   1-2  Inputs  : 	429
+   3    Inputs  : 	350
+   4    Inputs  : 	815
+EFX_FF          : 	1846
+EFX_RAM_5K      : 	21
+EFX_GBUFCE      : 	2
+### ### Resource Summary (end) ### ### ###
+
+Plain synthesis (without verilog dump and post-map checks) time : 22s
+Elapsed synthesis time : 24s

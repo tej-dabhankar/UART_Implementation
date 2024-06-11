@@ -1,0 +1,323 @@
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jun 10, 2024 11:10:16
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] Post-synthesis netlist has only vcc and gnd nets as all logic are eliminated. Legal, but will cause router to crash. 
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jun 10, 2024 11:24:20
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] parameter initial value cannot be omitted in this mode of Verilog (VERI-1817) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:38)
+[EFX-0010 VERI-ERROR] module 'uart_tx' is ignored due to previous errors (VERI-1072) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:169)
+[EFX-0010 VERI-ERROR] parameter initial value cannot be omitted in this mode of Verilog (VERI-1817) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:174)
+[EFX-0010 VERI-ERROR] module 'uart_rx' is ignored due to previous errors (VERI-1072) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:308)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jun 10, 2024 11:25:29
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] parameter initial value cannot be omitted in this mode of Verilog (VERI-1817) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:38)
+[EFX-0010 VERI-ERROR] module 'uart_tx' is ignored due to previous errors (VERI-1072) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:169)
+[EFX-0010 VERI-ERROR] parameter initial value cannot be omitted in this mode of Verilog (VERI-1817) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:174)
+[EFX-0010 VERI-ERROR] module 'uart_rx' is ignored due to previous errors (VERI-1072) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:308)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jun 10, 2024 11:25:39
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jun 10, 2024 11:56:47
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jun 10, 2024 12:24:53
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jun 10, 2024 12:56:23
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jun 10, 2024 13:03:37
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jun 10, 2024 13:06:12
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] concurrent assignment to a non-net 'o_Tx_Serial' is not permitted (VERI-1195) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:20)
+[EFX-0021 ERROR] Verific elaboration of module 'uart_rx' failed.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jun 10, 2024 13:35:46
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] concurrent assignment to a non-net 'o_Tx_Serial' is not permitted (VERI-1195) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:20)
+[EFX-0021 ERROR] Verific elaboration of module 'uart_rx' failed.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jun 10, 2024 13:37:48
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] concurrent assignment to a non-net 'o_Tx_Serial' is not permitted (VERI-1195) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:20)
+[EFX-0021 ERROR] Verific elaboration of module 'uart_rx' failed.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jun 10, 2024 13:38:11
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] concurrent assignment to a non-net 'o_Tx_Serial' is not permitted (VERI-1195) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart.v:20)
+[EFX-0021 ERROR] Verific elaboration of module 'uart_rx' failed.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jun 10, 2024 13:38:41
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jun 10, 2024 13:40:47
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jun 10, 2024 14:21:50
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jun 10, 2024 14:42:42
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jun 10, 2024 15:02:55
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jun 10, 2024 15:10:14
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jun 10, 2024 15:23:19
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jun 10, 2024 15:26:25
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jun 10, 2024 15:38:50
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jun 10, 2024 15:47:10
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jun 10, 2024 15:51:59
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jun 10, 2024 16:23:11
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] overwriting previous definition of module 'uart_tx' (VERI-1206) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_tx.v:133)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jun 10, 2024 16:23:29
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] overwriting previous definition of module 'uart_tx' (VERI-1206) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_tx.v:133)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jun 10, 2024 16:26:25
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] overwriting previous definition of module 'uart_tx' (VERI-1206) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_tx.v:133)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jun 10, 2024 16:28:37
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jun 10, 2024 16:37:10
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jun 10, 2024 16:37:42
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jun 10, 2024 16:38:37
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jun 10, 2024 17:19:55
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jun 10, 2024 17:43:54
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jun 10, 2024 17:47:28
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jun 10, 2024 17:56:18
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jun 10, 2024 18:03:51
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jun 10, 2024 18:08:44
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jun 10, 2024 18:12:07
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jun 10, 2024 18:57:11
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] procedural assignment to a non-register 'o_Rx_Verify' is not permitted (VERI-1100) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_rx.v:141)
+[EFX-0010 VERI-ERROR] procedural assignment to a non-register 'o_Rx_Verify' is not permitted (VERI-1100) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_rx.v:143)
+[EFX-0010 VERI-ERROR] module 'uart_rx' is ignored due to previous errors (VERI-1072) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_rx.v:148)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jun 10, 2024 18:57:23
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] procedural assignment to a non-register 'o_Rx_Verify' is not permitted (VERI-1100) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_rx.v:141)
+[EFX-0010 VERI-ERROR] procedural assignment to a non-register 'o_Rx_Verify' is not permitted (VERI-1100) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_rx.v:143)
+[EFX-0010 VERI-ERROR] module 'uart_rx' is ignored due to previous errors (VERI-1072) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_rx.v:148)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jun 10, 2024 18:58:02
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] procedural assignment to a non-register 'o_Rx_Verify' is not permitted (VERI-1100) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_rx.v:141)
+[EFX-0010 VERI-ERROR] procedural assignment to a non-register 'o_Rx_Verify' is not permitted (VERI-1100) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_rx.v:143)
+[EFX-0010 VERI-ERROR] module 'uart_rx' is ignored due to previous errors (VERI-1072) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_rx.v:148)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jun 10, 2024 19:00:34
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] procedural assignment to a non-register 'o_Rx_Verify' is not permitted (VERI-1100) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_rx.v:141)
+[EFX-0010 VERI-ERROR] procedural assignment to a non-register 'o_Rx_Verify' is not permitted (VERI-1100) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_rx.v:143)
+[EFX-0010 VERI-ERROR] module 'uart_rx' is ignored due to previous errors (VERI-1072) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_rx.v:148)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jun 10, 2024 19:03:37
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] procedural assignment to a non-register 'o_Rx_Verify' is not permitted (VERI-1100) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_rx.v:141)
+[EFX-0010 VERI-ERROR] procedural assignment to a non-register 'o_Rx_Verify' is not permitted (VERI-1100) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_rx.v:143)
+[EFX-0010 VERI-ERROR] module 'uart_rx' is ignored due to previous errors (VERI-1072) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_rx.v:148)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jun 10, 2024 19:03:56
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] syntax error near 'else' (VERI-1137) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_rx.v:145)
+[EFX-0010 VERI-ERROR] Verilog 2000 keyword 'else' used in incorrect context (VERI-2344) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_rx.v:145)
+[EFX-0010 VERI-ERROR] module 'uart_rx' is ignored due to previous errors (VERI-1072) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_rx.v:150)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jun 10, 2024 19:04:06
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] syntax error near 'else' (VERI-1137) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_rx.v:145)
+[EFX-0010 VERI-ERROR] Verilog 2000 keyword 'else' used in incorrect context (VERI-2344) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_rx.v:145)
+[EFX-0010 VERI-ERROR] module 'uart_rx' is ignored due to previous errors (VERI-1072) (/home/tejas/Documents/Vicharak/FPGA_Implementation/UART/uart_rx.v:150)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jun 10, 2024 19:05:21
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jun 11, 2024 09:56:12
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jun 11, 2024 09:58:37
+///////////////////////////////////
+
