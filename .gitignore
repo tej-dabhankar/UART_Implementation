@@ -1,0 +1,12 @@
+*.vdb
+
+*.log
+.lock
+
+work_*
+
+debug_profile.wizard.json
+efinity_dbg.jtag.log.1
+
+*.gtkw
+*.vcd
